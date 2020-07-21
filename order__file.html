@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Document</title>
+  <link rel="stylesheet" href="css/style.min.css" />
+</head>
+
+<body>
+
+  <body>
+    <header class="header">
+      <div class="haeder-wraper">
+        <div class="header-bar">
+          <div class="header-tell">
+            <img src="/img/телефон.png" alt="" />
+            <a href="tel:+78616430185" class="header-number">
+              +7 (861) 643 - 01 - 85
+            </a>
+            <a href="tel:+79182133523" class="header-number">
+              +7 (918) 213 - 35 - 23
+            </a>
+          </div>
+          <div class="header-info">
+            <ul class="header-info__list">
+              <li class="header-info__item"><a href="#">Склады</a></li>
+              <li class="header-info__item"><a href="#">Оплата</a></li>
+              <li class="header-info__item"><a href="#">Доставка</a></li>
+            </ul>
+          </div>
+          <div class="header-user user">
+            <div class="user-info">
+              <picture>
+                <picture>
+                  <source srcset="img/пользователь.png" media="(max-width: 970px)">
+                  <source srcset="img/пользователь2.png">
+                  <img srcset="img/пользователь2.png" alt="My default image">
+                </picture>
+                <a class="user-info__cabinet" href="#">Кабинет</a>
+            </div>
+            <div class="user-info">
+              <img src="/img/корзина.png" width="20" height="17" alt="" />
+              <a class="user-info__backet" href="#">Корзина</a>
+            </div>
+          </div>
+        </div>
+        <div class="header-wrap">
+          <div class="header-logo__wraper">
+            <div class="header-logo">
+              <a href="" class="header-logo__img">
+                <img src="/img/header-logo.png" alt="" />
+              </a>
+            </div>
+            <div class="header-user__menu">
+              <button class="user-menu__cabinet"><img srcset="img/пользователь2.png" alt="My default image"></button>
+              <button class="user-menu__backet"><img src="/img/корзина.png" width="20" height="17" alt="" /></button>
+            </div>
+          </div>
+          <div class="header-search">
+            <input class="search" type="search" name="search" placeholder="Поиск..." />
+          </div>
+        </div>
+        <nav class="header-products">
+          <ul class="header-products__list">
+            <li class="header-products-item">
+              <a href="#" class="header-products__link">Шины</a>
+            </li>
+            <li class="header-products-item">
+              <a href="#" class="header-products__link">Диски</a>
+            </li>
+            <li class="header-products-item">
+              <a href="#" class="header-products__link">Запчасти</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main class="main main-order">
+      <section class="main-header">
+        <a href="#" class="main-return__link">«« Вернуться назад</a>
+        <h1 class="main-heading">Заказ из файла</h1>
+        <div id="menu-togle" class="menu-icon menu-burger">
+          <div class="menu-icon-line"></div>
+        </div>
+        <nav class="main-nav">
+          <ul class="main-nav__list">
+            <li class="main-nav__item">
+              <a href="#" class="mian-nav__link">Контакты складов</a>
+            </li>
+            <li class="main-nav__item">
+              <a href="order__list.html" class="mian-nav__link">Список заказов</a>
+            </li>
+            <li class="main-nav__item">
+              <a href="#" class="mian-nav__link">Информация о заказе</a>
+            </li>
+            <li class="main-nav__item">
+              <a href="order__file.html" class="mian-nav__link">Заказ из файла</a>
+            </li>
+            <li class="main-nav__item">
+              <a href="unloading.html" class="mian-nav__link">Выгрузка прайсов</a>
+            </li>
+          </ul>
+        </nav>
+      </section>
+      <section class="main-order__section order-file">
+        <h4 class="order-file__heading heading__black">Создать заказ из файла</h4>
+        <form class="order-file__form" enctype=" " method="post">
+          <div class="order-file__form--wrap">
+            <div class="order-upload__wrap">
+              <input class="order-file__field" type=" " name="entry_field" value="Файл не выбран">
+              <!--
+                -->
+              <input class="order-file__download" type="submit" value="ЗАГРУЗИТЬ">
+            </div>
+            <input class="order-file__create" type="submit" value="СОЗДАТЬ ЗАКАЗ">
+          </div>
+        </form>
+        <div class="order-file__example example">
+          <p><a download href="№" class="example-remainder">Скачать пример файла для заказа из остатков</a></p>
+          <p><a download href="№" class="example-vendor">Скачать пример файла для заказа по артикулам</a></p>
+        </div>
+        </form>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="footer-wrap">
+        <div class="footer-logo__wrap">
+          <div class="footer-logo__wraper">
+            <a href="#" class="footer-logo">
+              <img src="img/footer-logo.png" alt="" />
+            </a>
+          </div>
+          <p class="footer-info__text">
+            Сайт не является публичной офертой,определяемой положениями Статьи
+            437 (2) ГК РФ и носит исключительно информационный характер.
+          </p>
+        </div>
+        <div class="footer-info">
+          <div class="footer-nav">
+            <h4 class="footer-nav__list-name">КАТАЛОГ</h4>
+            <ul class="footer-nav__list">
+              <li class="footer-nav__item">
+                <a href="#" class="footer-nav__link">Шины</a>
+              </li>
+              <li class="footer-nav__item">
+                <a href="#" class="footer-nav__link">Диски</a>
+              </li>
+              <li class="footer-nav__item">
+                <a href="#" class="footer-nav__link">Запчасти</a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer-nav">
+            <h4 class="footer-nav__list-name">КАБИНЕТ</h4>
+            <ul class="footer-nav__list">
+              <li class="footer-nav__item">
+                <a href="" class="footer-nav__link">Мои данные</a>
+              </li>
+              <li class="footer-nav__item">
+                <a href="" class="footer-nav__link">Заказы</a>
+              </li>
+              <li class="footer-nav__item">
+                <a href="" class="footer-nav__link">Корзина</a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer-nav">
+            <h4 class="footer-nav__list-name">ИНФОРМАЦИЯ</h4>
+            <ul class="footer-nav__list">
+              <li class="footer-nav__item">
+                <a href="" class="footer-nav__link">Склады</a>
+              </li>
+              <li class="footer-nav__item">
+                <a href="" class="footer-nav__link">Оплата</a>
+              </li>
+              <li class="footer-nav__item">
+                <a href="" class="footer-nav__link">Доставка</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="js/libs.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>

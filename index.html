@@ -1,0 +1,1199 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.min.css" />
+</head>
+
+<body>
+
+    <body>
+        <header class="header">
+            <div class="haeder-wraper">
+                <div class="header-bar">
+                    <div class="header-tell">
+                        <img src="/img/телефон.png" alt="" />
+                        <a href="tel:+78616430185" class="header-number">
+                            +7 (861) 643 - 01 - 85
+                        </a>
+                        <a href="tel:+79182133523" class="header-number">
+                            +7 (918) 213 - 35 - 23
+                        </a>
+                    </div>
+                    <div class="header-info">
+                        <ul class="header-info__list">
+                            <li class="header-info__item"><a href="#">Склады</a></li>
+                            <li class="header-info__item"><a href="#">Оплата</a></li>
+                            <li class="header-info__item"><a href="#">Доставка</a></li>
+                        </ul>
+                    </div>
+                    <div class="header-user user">
+                        <div class="user-info">
+                            <picture>
+                                <picture>
+                                    <source srcset="img/пользователь.png" media="(max-width: 970px)">
+                                    <source srcset="img/пользователь2.png">
+                                    <img srcset="img/пользователь2.png" alt="My default image">
+                                </picture>
+                                <a class="user-info__cabinet" href="#">Кабинет</a>
+                        </div>
+                        <div class="user-info">
+                            <img src="/img/корзина.png" width="20" height="17" alt="" />
+                            <a class="user-info__backet" href="#">Корзина</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="header-wrap">
+                    <div class="header-logo__wraper">
+                        <div class="header-logo">
+                            <a href="" class="header-logo__img">
+                                <img src="/img/header-logo.png" alt="" />
+                            </a>
+                        </div>
+                        <div class="header-user__menu">
+                            <button class="user-menu__cabinet"><img srcset="img/пользователь2.png"
+                                    alt="My default image"></button>
+                            <button class="user-menu__backet"><img src="/img/корзина.png" width="20" height="17"
+                                    alt="" /></button>
+                        </div>
+                    </div>
+                    <div class="header-search">
+                        <input class="search" type="search" name="search" placeholder="Поиск..." />
+                    </div>
+                </div>
+                <nav class="header-products">
+                    <ul class="header-products__list">
+                        <li class="header-products-item active">
+                            <a href="unloading.html" class="header-products__link">Шины<span>4599 моделей</span></a>
+                        </li>
+                        <li class="header-products-item">
+                            <a href="#" class="header-products__link">Диски</a>
+                        </li>
+                        <li class="header-products-item">
+                            <a href="#" class="header-products__link">Запчасти</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <main class="main main-tires">
+            <section class="main-header">
+                <h1 class="main-heading__tires">Подобрать шины</h1>
+                <div class="tabs">
+                    <div class="tabs__nav">
+                        <a class="tabs__link tabs__link_active" href="#content-1">По параметрам </a>
+                        <span>/</span>
+                        <a class="tabs__link" href="#content-2">По автомобилю</a>
+                    </div>
+                    <div class="tabs__content">
+                        <div class="tabs__pane tabs__pane_show" id="content-1">
+                            Содержимое 1...
+                        </div>
+                        <div class="tabs__pane tabs__pane_show" id="content-2">
+                            <section class="filter-car">
+                                <div class="filter-car__wrap">
+                                    <form action="" class="filter-car__form">
+                                        <div class="filter-car__form--wrap">
+                                            <select>
+                                                <option>BMW</option>
+                                                <option>Пункт 2</option>
+                                            </select>
+                                            <select>
+                                                <option>Модель</option>
+                                                <option>Пункт 2</option>
+                                            </select>
+                                            <select>
+                                                <option>Модификация</option>
+                                                <option>Пункт 2</option>
+                                            </select>
+                                        </div>
+                                        <div class="filter-car__form--wrap">
+                                            <select>
+                                                <option>Год выпуска</option>
+                                                <option>Пункт 2</option>
+                                            </select>
+                                            <input class="formation-btn__input" type="radio" name="winter"
+                                                id="winter" />
+                                            <!--
+                                                -->
+                                            <label class="formation-btn__label formation-btn__label--left" for="winter">
+                                                Зима
+                                            </label>
+                                            <!--
+                                                -->
+                                            <input class="formation-btn__input" type="radio" name="summer" id="summer"
+                                                checked />
+                                            <!--
+                                                -->
+                                            <label class="formation-btn__label formation-btn__label--right"
+                                                for="summer">
+                                                Лето
+                                            </label>
+                                            <div class="filter-car__form--vertical">
+                                                <span>Шипы</span>
+                                                <div class="filter-car__form--wraper">
+                                                    <input class="formation-btn__input" type="radio" name="yes" id="yes"
+                                                        checked />
+                                                    <!--                                 
+                                        -->
+                                                    <label class="formation-btn__label formation-btn__label--left"
+                                                        for="yes">
+                                                        Да
+                                                    </label>
+                                                    <!--                                 
+                                        -->
+                                                    <input class="formation-btn__input" type="radio" name="no"
+                                                        id="no" />
+                                                    <!--
+                                          -->
+                                                    <label class="formation-btn__label formation-btn__label--right"
+                                                        for="no">
+                                                        Нет
+                                                    </label>
+                                                </div>
+                                            </div>
+
+
+                                        </div>
+                                        <div class="filter-car__btn--wrap">
+                                            <button class="filter-car__btn" type="submit">ПОДОБРАТЬ</button>
+                                            <div class="order-list__reset">
+                                                <button class="order-list__reset__btn">Сбросить</button>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </section>
+                            <section class="filter-result result">
+                                <div class="result-wrap">
+                                    <p class="result-info">
+                                        Для вашего автомобиля подходят шины следующих параметров:
+                                    </p>
+                                    <div class="result-info__wrap">
+                                        <p class="result-information">Ширина 225, 265</p><span>/</span>
+                                        <p class="result-information">Высота 45 R 16, 20</p>
+                                    </div>
+                                    <div class="result-form__filter__wraper">
+                                        <form action="" class="result-form__filter">
+
+                                            <div class="result-form__filter__wrap">
+                                                <p>Выбрать город</p>
+                                                <select>
+                                                    <option>Ростов - на - Дону</option>
+                                                    <option>Пункт 2</option>
+                                                </select>
+                                            </div>
+                                            <div class="result-form__filter__wrap">
+                                                <p>Выбрать склад</p>
+                                                <select>
+                                                    <option>Адрес</option>
+                                                    <option>Пункт 2</option>
+                                                </select>
+                                            </div>
+                                        </form>
+                                        <div class="result-info__btn--wrap filter-btn">
+                                            <button class="filter-btn__view">
+                                                <svg class="filter-btn__icon" xmlns="http://www.w3.org/2000/svg"
+                                                    width="31" height="26">
+                                                    <path fill="#767676" fill-rule="evenodd"
+                                                        d="M5.75 26v-3.719h24.969V26H5.75zm0-11.156h24.969v3.718H5.75v-3.718zm0-7.407h24.969v3.719H5.75V7.437zM5.75 0h24.969v3.719H5.75V0zM0 22.281h3.844V26H0v-3.719zm0-7.437h3.844v3.718H0v-3.718zm0-7.407h3.844v3.719H0V7.437zM0 0h3.844v3.719H0V0z" />
+                                                </svg>
+                                            </button>
+                                            <button class="filter-btn__view">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="31" height="26">
+                                                    <path fill="#0199FD" fill-rule="evenodd"
+                                                        d="M22.281 26v-6.906H31V26h-8.719zm0-16.469H31v6.906h-8.719V9.531zm0-9.531H31v6.906h-8.719V0zM11.75 19.094h8.719V26H11.75v-6.906zm0-9.563h8.719v6.906H11.75V9.531zm0-9.531h8.719v6.906H11.75V0zM.281 19.094H9V26H.281v-6.906zm0-9.563H9v6.906H.281V9.531zM.281 0H9v6.906H.281V0z" />
+                                                </svg>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                            <section class="result-catalog">
+                                <div class="result-catalog-wrap">
+                                    <div class="result-card__wrap">
+                                        <div class="result-card__info result-card__info--desktop">
+                                            <p>Склад</p>
+                                            <p>Интернет цена</p>
+                                            <p>Ваша цена</p>
+                                        </div>
+                                        <div class="result-cards cards">
+                                            <div class="cards-product product">
+                                                <div class="product-general">
+                                                    <picture>
+                                                        <source srcset="img/tire-min.png" media="(max-width: 450px)">
+                                                        <source srcset="img/tire-2x.png">
+                                                        <img srcset="img/tire-2x.png" alt="My default image">
+                                                    </picture>
+                                                    <div class="product-name__wrap">
+                                                        <div class="product-name__wraper">
+                                                            <p class="product-name">Delinte DH2</p>
+                                                            <p class="product-parameters">195/60 R15 88V </p>
+                                                        </div>
+                                                        <p class="product-article">Артикул: 123456</p>
+                                                    </div>
+                                                </div>
+                                                <div class="product-info__wrap">
+                                                    <div class="result-card__info result-card__info--mobil">
+                                                        <p>Склад</p>
+                                                        <p>Интернет цена</p>
+                                                        <p>Ваша цена</p>
+                                                        <p>кол - во</p>
+                                                    </div>
+                                                    <div class="product-info">
+                                                        <p class="product-info__stock">КР-И</p>
+                                                        <p class="product-info__internet-price">2 520 р</p>
+                                                        <p class="product-info__your-price">2 271 р</p>
+                                                        <div class="product-info__entry-field">
+                                                            <label for="quantity-goods">> 40 шт</label>
+                                                            <input type="text" name="" id="quantity-goods">
+                                                        </div>
+                                                    </div>
+                                                    <div class="product-info">
+                                                        <p class="product-info__stock">КР-И</p>
+                                                        <p class="product-info__internet-price">2 520 р</p>
+                                                        <p class="product-info__your-price">2 271 р</p>
+                                                        <div class="product-info__entry-field">
+                                                            <label for="quantity-goods">> 40 шт</label>
+                                                            <input type="text" name="" id="quantity-goods">
+                                                        </div>
+                                                    </div>
+                                                    <div class="product-info">
+                                                        <p class="product-info__stock">КР-И</p>
+                                                        <p class="product-info__internet-price">2 520 р</p>
+                                                        <p class="product-info__your-price">2 271 р</p>
+                                                        <div class="product-info__entry-field">
+                                                            <label for="quantity-goods">> 40 шт</label>
+                                                            <input type="text" name="" id="quantity-goods">
+                                                        </div>
+                                                    </div>
+                                                    <div class="product-info">
+                                                        <p class="product-info__stock">КР-И</p>
+                                                        <p class="product-info__internet-price">2 520 р</p>
+                                                        <p class="product-info__your-price">2 271 р</p>
+                                                        <div class="product-info__entry-field">
+                                                            <label for="quantity-goods">> 40 шт</label>
+                                                            <input type="text" name="" id="quantity-goods">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+
+                                        <div class="result-cards cards">
+                                            <div class="cards-product product">
+                                                <div class="product-general">
+                                                    <picture>
+                                                        <source srcset="img/tire-min.png" media="(max-width: 450px)">
+                                                        <source srcset="img/tire-2x.png">
+                                                        <img srcset="img/tire-2x.png" alt="My default image">
+                                                    </picture>
+                                                    <div class="product-name__wrap">
+                                                        <div class="product-name__wraper">
+                                                            <p class="product-name">Delinte DH2</p>
+                                                            <p class="product-parameters">195/60 R15 88V </p>
+                                                        </div>
+                                                        <p class="product-article">Артикул: 123456</p>
+                                                    </div>
+                                                </div>
+                                                <div class="product-info__wrap">
+                                                    <div class="result-card__info result-card__info--mobil">
+                                                        <p>Склад</p>
+                                                        <p>Интернет цена</p>
+                                                        <p>Ваша цена</p>
+                                                        <p>кол - во</p>
+                                                    </div>
+                                                    <div class="product-info">
+                                                        <p class="product-info__stock">КР-И</p>
+                                                        <p class="product-info__internet-price">2 520 р</p>
+                                                        <p class="product-info__your-price">2 271 р</p>
+                                                        <div class="product-info__entry-field">
+                                                            <label for="quantity-goods">> 40 шт</label>
+                                                            <input type="text" name="" id="quantity-goods">
+                                                        </div>
+                                                    </div>
+                                                    <div class="product-info">
+                                                        <p class="product-info__stock">КР-И</p>
+                                                        <p class="product-info__internet-price">2 520 р</p>
+                                                        <p class="product-info__your-price">2 271 р</p>
+                                                        <div class="product-info__entry-field">
+                                                            <label for="quantity-goods">> 40 шт</label>
+                                                            <input type="text" name="" id="quantity-goods">
+                                                        </div>
+                                                    </div>
+                                                    <div class="product-info">
+                                                        <p class="product-info__stock">КР-И</p>
+                                                        <p class="product-info__internet-price">2 520 р</p>
+                                                        <p class="product-info__your-price">2 271 р</p>
+                                                        <div class="product-info__entry-field">
+                                                            <label for="quantity-goods">> 40 шт</label>
+                                                            <input type="text" name="" id="quantity-goods">
+                                                        </div>
+                                                    </div>
+                                                    <div class="product-info">
+                                                        <p class="product-info__stock">КР-И</p>
+                                                        <p class="product-info__internet-price">2 520 р</p>
+                                                        <p class="product-info__your-price">2 271 р</p>
+                                                        <div class="product-info__entry-field">
+                                                            <label for="quantity-goods">> 40 шт</label>
+                                                            <input type="text" name="" id="quantity-goods">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="result-cards cards">
+                                            <div class="cards-product product">
+                                                <div class="product-general">
+                                                    <picture>
+                                                        <source srcset="img/tire-min.png" media="(max-width: 450px)">
+                                                        <source srcset="img/tire-2x.png">
+                                                        <img srcset="img/tire-2x.png" alt="My default image">
+                                                    </picture>
+                                                    <div class="product-name__wrap">
+                                                        <div class="product-name__wraper">
+                                                            <p class="product-name">Delinte DH2</p>
+                                                            <p class="product-parameters">195/60 R15 88V </p>
+                                                        </div>
+                                                        <p class="product-article">Артикул: 123456</p>
+                                                    </div>
+                                                </div>
+                                                <div class="product-info__wrap">
+                                                    <div class="result-card__info result-card__info--mobil">
+                                                        <p>Склад</p>
+                                                        <p>Интернет цена</p>
+                                                        <p>Ваша цена</p>
+                                                        <p>кол - во</p>
+                                                    </div>
+                                                    <div class="product-info">
+                                                        <p class="product-info__stock">КР-И</p>
+                                                        <p class="product-info__internet-price">2 520 р</p>
+                                                        <p class="product-info__your-price">2 271 р</p>
+                                                        <div class="product-info__entry-field">
+                                                            <label for="quantity-goods">> 40 шт</label>
+                                                            <input type="text" name="" id="quantity-goods">
+                                                        </div>
+                                                    </div>
+                                                    <div class="product-info">
+                                                        <p class="product-info__stock">КР-И</p>
+                                                        <p class="product-info__internet-price">2 520 р</p>
+                                                        <p class="product-info__your-price">2 271 р</p>
+                                                        <div class="product-info__entry-field">
+                                                            <label for="quantity-goods">> 40 шт</label>
+                                                            <input type="text" name="" id="quantity-goods">
+                                                        </div>
+                                                    </div>
+                                                    <div class="product-info">
+                                                        <p class="product-info__stock">КР-И</p>
+                                                        <p class="product-info__internet-price">2 520 р</p>
+                                                        <p class="product-info__your-price">2 271 р</p>
+                                                        <div class="product-info__entry-field">
+                                                            <label for="quantity-goods">> 40 шт</label>
+                                                            <input type="text" name="" id="quantity-goods">
+                                                        </div>
+                                                    </div>
+                                                    <div class="product-info">
+                                                        <p class="product-info__stock">КР-И</p>
+                                                        <p class="product-info__internet-price">2 520 р</p>
+                                                        <p class="product-info__your-price">2 271 р</p>
+                                                        <div class="product-info__entry-field">
+                                                            <label for="quantity-goods">> 40 шт</label>
+                                                            <input type="text" name="" id="quantity-goods">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="result-cards cards">
+                                            <div class="cards-product product">
+                                                <div class="product-general">
+                                                    <picture>
+                                                        <source srcset="img/tire-min.png" media="(max-width: 450px)">
+                                                        <source srcset="img/tire-2x.png">
+                                                        <img srcset="img/tire-2x.png" alt="My default image">
+                                                    </picture>
+                                                    <div class="product-name__wrap">
+                                                        <div class="product-name__wraper">
+                                                            <p class="product-name">Delinte DH2</p>
+                                                            <p class="product-parameters">195/60 R15 88V </p>
+                                                        </div>
+                                                        <p class="product-article">Артикул: 123456</p>
+                                                    </div>
+                                                </div>
+                                                <div class="product-info__wrap">
+                                                    <div class="result-card__info result-card__info--mobil">
+                                                        <p>Склад</p>
+                                                        <p>Интернет цена</p>
+                                                        <p>Ваша цена</p>
+                                                        <p>кол - во</p>
+                                                    </div>
+                                                    <div class="product-info">
+                                                        <p class="product-info__stock">КР-И</p>
+                                                        <p class="product-info__internet-price">2 520 р</p>
+                                                        <p class="product-info__your-price">2 271 р</p>
+                                                        <div class="product-info__entry-field">
+                                                            <label for="quantity-goods">> 40 шт</label>
+                                                            <input type="text" name="" id="quantity-goods">
+                                                        </div>
+                                                    </div>
+                                                    <div class="product-info">
+                                                        <p class="product-info__stock">КР-И</p>
+                                                        <p class="product-info__internet-price">2 520 р</p>
+                                                        <p class="product-info__your-price">2 271 р</p>
+                                                        <div class="product-info__entry-field">
+                                                            <label for="quantity-goods">> 40 шт</label>
+                                                            <input type="text" name="" id="quantity-goods">
+                                                        </div>
+                                                    </div>
+                                                    <div class="product-info">
+                                                        <p class="product-info__stock">КР-И</p>
+                                                        <p class="product-info__internet-price">2 520 р</p>
+                                                        <p class="product-info__your-price">2 271 р</p>
+                                                        <div class="product-info__entry-field">
+                                                            <label for="quantity-goods">> 40 шт</label>
+                                                            <input type="text" name="" id="quantity-goods">
+                                                        </div>
+                                                    </div>
+                                                    <div class="product-info">
+                                                        <p class="product-info__stock">КР-И</p>
+                                                        <p class="product-info__internet-price">2 520 р</p>
+                                                        <p class="product-info__your-price">2 271 р</p>
+                                                        <div class="product-info__entry-field">
+                                                            <label for="quantity-goods">> 40 шт</label>
+                                                            <input type="text" name="" id="quantity-goods">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="result-cards cards">
+                                            <div class="cards-product product">
+                                                <div class="product-general">
+                                                    <picture>
+                                                        <source srcset="img/tire-min.png" media="(max-width: 450px)">
+                                                        <source srcset="img/tire-2x.png">
+                                                        <img srcset="img/tire-2x.png" alt="My default image">
+                                                    </picture>
+                                                    <div class="product-name__wrap">
+                                                        <div class="product-name__wraper">
+                                                            <p class="product-name">Delinte DH2</p>
+                                                            <p class="product-parameters">195/60 R15 88V </p>
+                                                        </div>
+                                                        <p class="product-article">Артикул: 123456</p>
+                                                    </div>
+                                                </div>
+                                                <div class="product-info__wrap">
+                                                    <div class="result-card__info result-card__info--mobil">
+                                                        <p>Склад</p>
+                                                        <p>Интернет цена</p>
+                                                        <p>Ваша цена</p>
+                                                        <p>кол - во</p>
+                                                    </div>
+                                                    <div class="product-info">
+                                                        <p class="product-info__stock">КР-И</p>
+                                                        <p class="product-info__internet-price">2 520 р</p>
+                                                        <p class="product-info__your-price">2 271 р</p>
+                                                        <div class="product-info__entry-field">
+                                                            <label for="quantity-goods">> 40 шт</label>
+                                                            <input type="text" name="" id="quantity-goods">
+                                                        </div>
+                                                    </div>
+                                                    <div class="product-info">
+                                                        <p class="product-info__stock">КР-И</p>
+                                                        <p class="product-info__internet-price">2 520 р</p>
+                                                        <p class="product-info__your-price">2 271 р</p>
+                                                        <div class="product-info__entry-field">
+                                                            <label for="quantity-goods">> 40 шт</label>
+                                                            <input type="text" name="" id="quantity-goods">
+                                                        </div>
+                                                    </div>
+                                                    <div class="product-info">
+                                                        <p class="product-info__stock">КР-И</p>
+                                                        <p class="product-info__internet-price">2 520 р</p>
+                                                        <p class="product-info__your-price">2 271 р</p>
+                                                        <div class="product-info__entry-field">
+                                                            <label for="quantity-goods">> 40 шт</label>
+                                                            <input type="text" name="" id="quantity-goods">
+                                                        </div>
+                                                    </div>
+                                                    <div class="product-info">
+                                                        <p class="product-info__stock">КР-И</p>
+                                                        <p class="product-info__internet-price">2 520 р</p>
+                                                        <p class="product-info__your-price">2 271 р</p>
+                                                        <div class="product-info__entry-field">
+                                                            <label for="quantity-goods">> 40 шт</label>
+                                                            <input type="text" name="" id="quantity-goods">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="result-cards cards">
+                                            <div class="cards-product product">
+                                                <div class="product-general">
+                                                    <picture>
+                                                        <source srcset="img/tire-min.png" media="(max-width: 450px)">
+                                                        <source srcset="img/tire-2x.png">
+                                                        <img srcset="img/tire-2x.png" alt="My default image">
+                                                    </picture>
+                                                    <div class="product-name__wrap">
+                                                        <div class="product-name__wraper">
+                                                            <p class="product-name">Delinte DH2</p>
+                                                            <p class="product-parameters">195/60 R15 88V </p>
+                                                        </div>
+                                                        <p class="product-article">Артикул: 123456</p>
+                                                    </div>
+                                                </div>
+                                                <div class="product-info__wrap">
+                                                    <div class="result-card__info result-card__info--mobil">
+                                                        <p>Склад</p>
+                                                        <p>Интернет цена</p>
+                                                        <p>Ваша цена</p>
+                                                        <p>кол - во</p>
+                                                    </div>
+                                                    <div class="product-info">
+                                                        <p class="product-info__stock">КР-И</p>
+                                                        <p class="product-info__internet-price">2 520 р</p>
+                                                        <p class="product-info__your-price">2 271 р</p>
+                                                        <div class="product-info__entry-field">
+                                                            <label for="quantity-goods">> 40 шт</label>
+                                                            <input type="text" name="" id="quantity-goods">
+                                                        </div>
+                                                    </div>
+                                                    <div class="product-info">
+                                                        <p class="product-info__stock">КР-И</p>
+                                                        <p class="product-info__internet-price">2 520 р</p>
+                                                        <p class="product-info__your-price">2 271 р</p>
+                                                        <div class="product-info__entry-field">
+                                                            <label for="quantity-goods">> 40 шт</label>
+                                                            <input type="text" name="" id="quantity-goods">
+                                                        </div>
+                                                    </div>
+                                                    <div class="product-info">
+                                                        <p class="product-info__stock">КР-И</p>
+                                                        <p class="product-info__internet-price">2 520 р</p>
+                                                        <p class="product-info__your-price">2 271 р</p>
+                                                        <div class="product-info__entry-field">
+                                                            <label for="quantity-goods">> 40 шт</label>
+                                                            <input type="text" name="" id="quantity-goods">
+                                                        </div>
+                                                    </div>
+                                                    <div class="product-info">
+                                                        <p class="product-info__stock">КР-И</p>
+                                                        <p class="product-info__internet-price">2 520 р</p>
+                                                        <p class="product-info__your-price">2 271 р</p>
+                                                        <div class="product-info__entry-field">
+                                                            <label for="quantity-goods">> 40 шт</label>
+                                                            <input type="text" name="" id="quantity-goods">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="result-cards cards">
+                                            <div class="cards-product product">
+                                                <div class="product-general">
+                                                    <picture>
+                                                        <source srcset="img/tire-min.png" media="(max-width: 450px)">
+                                                        <source srcset="img/tire-2x.png">
+                                                        <img srcset="img/tire-2x.png" alt="My default image">
+                                                    </picture>
+                                                    <div class="product-name__wrap">
+                                                        <div class="product-name__wraper">
+                                                            <p class="product-name">Delinte DH2</p>
+                                                            <p class="product-parameters">195/60 R15 88V </p>
+                                                        </div>
+                                                        <p class="product-article">Артикул: 123456</p>
+                                                    </div>
+                                                </div>
+                                                <div class="product-info__wrap">
+                                                    <div class="result-card__info result-card__info--mobil">
+                                                        <p>Склад</p>
+                                                        <p>Интернет цена</p>
+                                                        <p>Ваша цена</p>
+                                                        <p>кол - во</p>
+                                                    </div>
+                                                    <div class="product-info">
+                                                        <p class="product-info__stock">КР-И</p>
+                                                        <p class="product-info__internet-price">2 520 р</p>
+                                                        <p class="product-info__your-price">2 271 р</p>
+                                                        <div class="product-info__entry-field">
+                                                            <label for="quantity-goods">> 40 шт</label>
+                                                            <input type="text" name="" id="quantity-goods">
+                                                        </div>
+                                                    </div>
+                                                    <div class="product-info">
+                                                        <p class="product-info__stock">КР-И</p>
+                                                        <p class="product-info__internet-price">2 520 р</p>
+                                                        <p class="product-info__your-price">2 271 р</p>
+                                                        <div class="product-info__entry-field">
+                                                            <label for="quantity-goods">> 40 шт</label>
+                                                            <input type="text" name="" id="quantity-goods">
+                                                        </div>
+                                                    </div>
+                                                    <div class="product-info">
+                                                        <p class="product-info__stock">КР-И</p>
+                                                        <p class="product-info__internet-price">2 520 р</p>
+                                                        <p class="product-info__your-price">2 271 р</p>
+                                                        <div class="product-info__entry-field">
+                                                            <label for="quantity-goods">> 40 шт</label>
+                                                            <input type="text" name="" id="quantity-goods">
+                                                        </div>
+                                                    </div>
+                                                    <div class="product-info">
+                                                        <p class="product-info__stock">КР-И</p>
+                                                        <p class="product-info__internet-price">2 520 р</p>
+                                                        <p class="product-info__your-price">2 271 р</p>
+                                                        <div class="product-info__entry-field">
+                                                            <label for="quantity-goods">> 40 шт</label>
+                                                            <input type="text" name="" id="quantity-goods">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="result-cards cards">
+                                            <div class="cards-product product">
+                                                <div class="product-general">
+                                                    <picture>
+                                                        <source srcset="img/tire-min.png" media="(max-width: 450px)">
+                                                        <source srcset="img/tire-2x.png">
+                                                        <img srcset="img/tire-2x.png" alt="My default image">
+                                                    </picture>
+                                                    <div class="product-name__wrap">
+                                                        <div class="product-name__wraper">
+                                                            <p class="product-name">Delinte DH2</p>
+                                                            <p class="product-parameters">195/60 R15 88V </p>
+                                                        </div>
+                                                        <p class="product-article">Артикул: 123456</p>
+                                                    </div>
+                                                </div>
+                                                <div class="product-info__wrap">
+                                                    <div class="result-card__info result-card__info--mobil">
+                                                        <p>Склад</p>
+                                                        <p>Интернет цена</p>
+                                                        <p>Ваша цена</p>
+                                                        <p>кол - во</p>
+                                                    </div>
+                                                    <div class="product-info">
+                                                        <p class="product-info__stock">КР-И</p>
+                                                        <p class="product-info__internet-price">2 520 р</p>
+                                                        <p class="product-info__your-price">2 271 р</p>
+                                                        <div class="product-info__entry-field">
+                                                            <label for="quantity-goods">> 40 шт</label>
+                                                            <input type="text" name="" id="quantity-goods">
+                                                        </div>
+                                                    </div>
+                                                    <div class="product-info">
+                                                        <p class="product-info__stock">КР-И</p>
+                                                        <p class="product-info__internet-price">2 520 р</p>
+                                                        <p class="product-info__your-price">2 271 р</p>
+                                                        <div class="product-info__entry-field">
+                                                            <label for="quantity-goods">> 40 шт</label>
+                                                            <input type="text" name="" id="quantity-goods">
+                                                        </div>
+                                                    </div>
+                                                    <div class="product-info">
+                                                        <p class="product-info__stock">КР-И</p>
+                                                        <p class="product-info__internet-price">2 520 р</p>
+                                                        <p class="product-info__your-price">2 271 р</p>
+                                                        <div class="product-info__entry-field">
+                                                            <label for="quantity-goods">> 40 шт</label>
+                                                            <input type="text" name="" id="quantity-goods">
+                                                        </div>
+                                                    </div>
+                                                    <div class="product-info">
+                                                        <p class="product-info__stock">КР-И</p>
+                                                        <p class="product-info__internet-price">2 520 р</p>
+                                                        <p class="product-info__your-price">2 271 р</p>
+                                                        <div class="product-info__entry-field">
+                                                            <label for="quantity-goods">> 40 шт</label>
+                                                            <input type="text" name="" id="quantity-goods">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="result-cards cards">
+                                            <div class="cards-product product">
+                                                <div class="product-general">
+                                                    <picture>
+                                                        <source srcset="img/tire-min.png" media="(max-width: 450px)">
+                                                        <source srcset="img/tire-2x.png">
+                                                        <img srcset="img/tire-2x.png" alt="My default image">
+                                                    </picture>
+                                                    <div class="product-name__wrap">
+                                                        <div class="product-name__wraper">
+                                                            <p class="product-name">Delinte DH2</p>
+                                                            <p class="product-parameters">195/60 R15 88V </p>
+                                                        </div>
+                                                        <p class="product-article">Артикул: 123456</p>
+                                                    </div>
+                                                </div>
+                                                <div class="product-info__wrap">
+                                                    <div class="result-card__info result-card__info--mobil">
+                                                        <p>Склад</p>
+                                                        <p>Интернет цена</p>
+                                                        <p>Ваша цена</p>
+                                                        <p>кол - во</p>
+                                                    </div>
+                                                    <div class="product-info">
+                                                        <p class="product-info__stock">КР-И</p>
+                                                        <p class="product-info__internet-price">2 520 р</p>
+                                                        <p class="product-info__your-price">2 271 р</p>
+                                                        <div class="product-info__entry-field">
+                                                            <label for="quantity-goods">> 40 шт</label>
+                                                            <input type="text" name="" id="quantity-goods">
+                                                        </div>
+                                                    </div>
+                                                    <div class="product-info">
+                                                        <p class="product-info__stock">КР-И</p>
+                                                        <p class="product-info__internet-price">2 520 р</p>
+                                                        <p class="product-info__your-price">2 271 р</p>
+                                                        <div class="product-info__entry-field">
+                                                            <label for="quantity-goods">> 40 шт</label>
+                                                            <input type="text" name="" id="quantity-goods">
+                                                        </div>
+                                                    </div>
+                                                    <div class="product-info">
+                                                        <p class="product-info__stock">КР-И</p>
+                                                        <p class="product-info__internet-price">2 520 р</p>
+                                                        <p class="product-info__your-price">2 271 р</p>
+                                                        <div class="product-info__entry-field">
+                                                            <label for="quantity-goods">> 40 шт</label>
+                                                            <input type="text" name="" id="quantity-goods">
+                                                        </div>
+                                                    </div>
+                                                    <div class="product-info">
+                                                        <p class="product-info__stock">КР-И</p>
+                                                        <p class="product-info__internet-price">2 520 р</p>
+                                                        <p class="product-info__your-price">2 271 р</p>
+                                                        <div class="product-info__entry-field">
+                                                            <label for="quantity-goods">> 40 шт</label>
+                                                            <input type="text" name="" id="quantity-goods">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="result-cards cards">
+                                            <div class="cards-product product">
+                                                <div class="product-general">
+                                                    <picture>
+                                                        <source srcset="img/tire-min.png" media="(max-width: 450px)">
+                                                        <source srcset="img/tire-2x.png">
+                                                        <img srcset="img/tire-2x.png" alt="My default image">
+                                                    </picture>
+                                                    <div class="product-name__wrap">
+                                                        <div class="product-name__wraper">
+                                                            <p class="product-name">Delinte DH2</p>
+                                                            <p class="product-parameters">195/60 R15 88V </p>
+                                                        </div>
+                                                        <p class="product-article">Артикул: 123456</p>
+                                                    </div>
+                                                </div>
+                                                <div class="product-info__wrap">
+                                                    <div class="result-card__info result-card__info--mobil">
+                                                        <p>Склад</p>
+                                                        <p>Интернет цена</p>
+                                                        <p>Ваша цена</p>
+                                                        <p>кол - во</p>
+                                                    </div>
+                                                    <div class="product-info">
+                                                        <p class="product-info__stock">КР-И</p>
+                                                        <p class="product-info__internet-price">2 520 р</p>
+                                                        <p class="product-info__your-price">2 271 р</p>
+                                                        <div class="product-info__entry-field">
+                                                            <label for="quantity-goods">> 40 шт</label>
+                                                            <input type="text" name="" id="quantity-goods">
+                                                        </div>
+                                                    </div>
+                                                    <div class="product-info">
+                                                        <p class="product-info__stock">КР-И</p>
+                                                        <p class="product-info__internet-price">2 520 р</p>
+                                                        <p class="product-info__your-price">2 271 р</p>
+                                                        <div class="product-info__entry-field">
+                                                            <label for="quantity-goods">> 40 шт</label>
+                                                            <input type="text" name="" id="quantity-goods">
+                                                        </div>
+                                                    </div>
+                                                    <div class="product-info">
+                                                        <p class="product-info__stock">КР-И</p>
+                                                        <p class="product-info__internet-price">2 520 р</p>
+                                                        <p class="product-info__your-price">2 271 р</p>
+                                                        <div class="product-info__entry-field">
+                                                            <label for="quantity-goods">> 40 шт</label>
+                                                            <input type="text" name="" id="quantity-goods">
+                                                        </div>
+                                                    </div>
+                                                    <div class="product-info">
+                                                        <p class="product-info__stock">КР-И</p>
+                                                        <p class="product-info__internet-price">2 520 р</p>
+                                                        <p class="product-info__your-price">2 271 р</p>
+                                                        <div class="product-info__entry-field">
+                                                            <label for="quantity-goods">> 40 шт</label>
+                                                            <input type="text" name="" id="quantity-goods">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="results-cards__list--wrap">
+                                            <div class="results-cards__list">
+                                                <a href="#" class="results-cards__item results-cards__item--back">
+                                                    <</a> <a href="#"
+                                                        class="results-cards__item results-cards__item--active">1
+                                                </a>
+                                                <a href="#" class="results-cards__item">2</a>
+                                                <a href="#" class="results-cards__item">3</a>
+                                                <a href="#" class="results-cards__item">4</a>
+                                                <a href="#" class="results-cards__item">5</a>
+                                                <a href="#" class="results-cards__item">6</a>
+                                                <a href="#" class="results-cards__item results-cards__item--next">></a>
+                                            </div>
+                                            <div class="results-cards__add">
+                                                <button class="btn results-cards__btn">ДОБАВИТЬ В КОРЗИНУ</button>
+                                            </div>
+                                        </div>
+                                        <div class="result-card__backet backet-bar__total">
+                                            <div class="backet-bar__total__wrap">
+                                                <p clss="backet-bar__total--info">В корзине <span>5</span> товаров</p>
+                                                <div class="backet-bar__total--all">
+                                                    <p class="backet-bar__total-description">Итого:</p>
+                                                    <p class="backet-bar__total-price">125 000 р</p>
+                                                </div>
+                                            </div>
+                                            <a href="#" class="btn backet-bar__issue">ПЕРЕЙТИ В КОРЗИНУ</a>
+                                        </div>
+                                    </div>
+
+                                    <div class="result-catalog__backet backet-bar" id="backet-bar">
+                                        <h3 class="unloading-heading">Корзина</h3>
+                                        <div class="backet-bar__wrap">
+                                            <div class="backet-bar__wraper">
+                                                <div class="backet-bar__items">
+                                                    <div class="result-cards cards">
+                                                        <img class="cards-img" src="img/tire-min.png" alt="">
+                                                        <div class="cards-product product">
+                                                            <div class="product-general">
+                                                                <div class="product-name__wrap">
+                                                                    <p class="product-name">Delinte DH2</p>
+                                                                    <p class="product-parameters">195/60 R15 88V </p>
+                                                                </div>
+                                                                <p class="product-article">Артикул: 123456</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="backet-bar__info">
+                                                        <button class="backet-bar__close">
+                                                            <img src="img/х.png" alt="закрыть">
+                                                        </button>
+                                                        <p class="backet-bar__price">2 520 р</p>
+                                                        <div class="backet-bar__quantity">
+                                                            <button class="backet-bar__btn btn-minus">&ndash;</button>
+                                                            <input class="backet-bar__quantity-number" type="text"
+                                                                value="2">
+                                                            <button class="backet-bar__btn btn-plus">+</button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="backet-bar__wraper">
+                                                <div class="backet-bar__items">
+                                                    <div class="result-cards cards">
+                                                        <img class="cards-img" src="img/tire-min.png" alt="">
+                                                        <div class="cards-product product">
+                                                            <div class="product-general">
+                                                                <div class="product-name__wrap">
+                                                                    <p class="product-name">Delinte DH2</p>
+                                                                    <p class="product-parameters">195/60 R15 88V </p>
+                                                                </div>
+                                                                <p class="product-article">Артикул: 123456</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="backet-bar__info">
+                                                        <button class="backet-bar__close">
+                                                            <img src="img/х.png" alt="закрыть">
+                                                        </button>
+                                                        <p class="backet-bar__price">2 520 р</p>
+                                                        <div class="backet-bar__quantity">
+                                                            <button class="backet-bar__btn btn-minus">&ndash;</button>
+                                                            <input class="backet-bar__quantity-number" type="text"
+                                                                value="2">
+                                                            <button class="backet-bar__btn btn-plus">+</button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="backet-bar__wraper">
+                                                <div class="backet-bar__items">
+                                                    <div class="result-cards cards">
+                                                        <img class="cards-img" src="img/tire-min.png" alt="">
+                                                        <div class="cards-product product">
+                                                            <div class="product-general">
+                                                                <div class="product-name__wrap">
+                                                                    <p class="product-name">Delinte DH2</p>
+                                                                    <p class="product-parameters">195/60 R15 88V </p>
+                                                                </div>
+                                                                <p class="product-article">Артикул: 123456</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="backet-bar__info">
+                                                        <button class="backet-bar__close">
+                                                            <img src="img/х.png" alt="закрыть">
+                                                        </button>
+                                                        <p class="backet-bar__price">2 520 р</p>
+                                                        <div class="backet-bar__quantity">
+                                                            <button class="backet-bar__btn btn-minus">&ndash;</button>
+                                                            <input class="backet-bar__quantity-number" type="text"
+                                                                value="2">
+                                                            <button class="backet-bar__btn btn-plus">+</button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                            <div class="backet-bar__wraper">
+                                                <div class="backet-bar__items">
+                                                    <div class="result-cards cards">
+                                                        <img class="cards-img" src="img/tire-min.png" alt="">
+                                                        <div class="cards-product product">
+                                                            <div class="product-general">
+                                                                <div class="product-name__wrap">
+                                                                    <p class="product-name">Delinte DH2</p>
+                                                                    <p class="product-parameters">195/60 R15 88V </p>
+                                                                </div>
+                                                                <p class="product-article">Артикул: 123456</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="backet-bar__info">
+                                                        <button class="backet-bar__close">
+                                                            <img src="img/х.png" alt="закрыть">
+                                                        </button>
+                                                        <p class="backet-bar__price">2 520 р</p>
+                                                        <div class="backet-bar__quantity">
+                                                            <button class="backet-bar__btn btn-minus">&ndash;</button>
+                                                            <input class="backet-bar__quantity-number" type="text"
+                                                                value="2">
+                                                            <button class="backet-bar__btn btn-plus">+</button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="backet-bar__wraper">
+                                                <div class="backet-bar__items">
+                                                    <div class="result-cards cards">
+                                                        <img class="cards-img" src="img/tire-min.png" alt="">
+                                                        <div class="cards-product product">
+                                                            <div class="product-general">
+                                                                <div class="product-name__wrap">
+                                                                    <p class="product-name">Delinte DH2</p>
+                                                                    <p class="product-parameters">195/60 R15 88V </p>
+                                                                </div>
+                                                                <p class="product-article">Артикул: 123456</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="backet-bar__info">
+                                                        <button class="backet-bar__close">
+                                                            <img src="img/х.png" alt="закрыть">
+                                                        </button>
+                                                        <p class="backet-bar__price">2 520 р</p>
+                                                        <div class="backet-bar__quantity">
+                                                            <button class="backet-bar__btn btn-minus">&ndash;</button>
+                                                            <input class="backet-bar__quantity-number" type="text"
+                                                                value="2">
+                                                            <button class="backet-bar__btn btn-plus">+</button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="backet-bar__wraper">
+                                                <div class="backet-bar__items">
+                                                    <div class="result-cards cards">
+                                                        <img class="cards-img" src="img/tire-min.png" alt="">
+                                                        <div class="cards-product product">
+                                                            <div class="product-general">
+                                                                <div class="product-name__wrap">
+                                                                    <p class="product-name">Delinte DH2</p>
+                                                                    <p class="product-parameters">195/60 R15 88V </p>
+                                                                </div>
+                                                                <p class="product-article">Артикул: 123456</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="backet-bar__info">
+                                                        <button class="backet-bar__close">
+                                                            <img src="img/х.png" alt="закрыть">
+                                                        </button>
+                                                        <p class="backet-bar__price">2 520 р</p>
+                                                        <div class="backet-bar__quantity">
+                                                            <button class="backet-bar__btn btn-minus">&ndash;</button>
+                                                            <input class="backet-bar__quantity-number" type="text"
+                                                                value="2">
+                                                            <button class="backet-bar__btn btn-plus">+</button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="backet-bar__wraper">
+                                                <div class="backet-bar__items">
+                                                    <div class="result-cards cards">
+                                                        <img class="cards-img" src="img/tire-min.png" alt="">
+                                                        <div class="cards-product product">
+                                                            <div class="product-general">
+                                                                <div class="product-name__wrap">
+                                                                    <p class="product-name">Delinte DH2</p>
+                                                                    <p class="product-parameters">195/60 R15 88V </p>
+                                                                </div>
+                                                                <p class="product-article">Артикул: 123456</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="backet-bar__info">
+                                                        <button class="backet-bar__close">
+                                                            <img src="img/х.png" alt="закрыть">
+                                                        </button>
+                                                        <p class="backet-bar__price">2 520 р</p>
+                                                        <div class="backet-bar__quantity">
+                                                            <button class="backet-bar__btn btn-minus">&ndash;</button>
+                                                            <input class="backet-bar__quantity-number" type="text"
+                                                                value="2">
+                                                            <button class="backet-bar__btn btn-plus">+</button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="backet-bar__wraper">
+                                                <div class="backet-bar__items">
+                                                    <div class="result-cards cards">
+                                                        <img class="cards-img" src="img/tire-min.png" alt="">
+                                                        <div class="cards-product product">
+                                                            <div class="product-general">
+                                                                <div class="product-name__wrap">
+                                                                    <p class="product-name">Delinte DH2</p>
+                                                                    <p class="product-parameters">195/60 R15 88V </p>
+                                                                </div>
+                                                                <p class="product-article">Артикул: 123456</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="backet-bar__info">
+                                                        <button class="backet-bar__close">
+                                                            <img src="img/х.png" alt="закрыть">
+                                                        </button>
+                                                        <p class="backet-bar__price">2 520 р</p>
+                                                        <div class="backet-bar__quantity">
+                                                            <button class="backet-bar__btn btn-minus">&ndash;</button>
+                                                            <input class="backet-bar__quantity-number" type="text"
+                                                                value="2">
+                                                            <button class="backet-bar__btn btn-plus">+</button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="backet-bar__total">
+                                                <div class="backet-bar__total__wrap">
+                                                    <p class="backet-bar__total-description">Итого:</p>
+                                                    <p class="backet-bar__total-price">125 000 р</p>
+                                                </div>
+                                                <a href="#" class="backet-bar__issue">ОФОРМИТЬ</a>
+                                            </div>
+                                        </div>
+
+
+
+                                    </div>
+                            </section>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </main>
+        <footer class="footer">
+            <div class="footer-wrap">
+                <div class="footer-logo__wrap">
+                    <div class="footer-logo__wraper">
+                        <a href="#" class="footer-logo">
+                            <img src="img/footer-logo.png" alt="" />
+                        </a>
+                    </div>
+                    <p class="footer-info__text">
+                        Сайт не является публичной офертой,определяемой положениями Статьи
+                        437 (2) ГК РФ и носит исключительно информационный характер.
+                    </p>
+                </div>
+                <div class="footer-info">
+                    <div class="footer-nav">
+                        <h4 class="footer-nav__list-name">КАТАЛОГ</h4>
+                        <ul class="footer-nav__list">
+                            <li class="footer-nav__item">
+                                <a href="#" class="footer-nav__link">Шины</a>
+                            </li>
+                            <li class="footer-nav__item">
+                                <a href="#" class="footer-nav__link">Диски</a>
+                            </li>
+                            <li class="footer-nav__item">
+                                <a href="#" class="footer-nav__link">Запчасти</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer-nav">
+                        <h4 class="footer-nav__list-name">КАБИНЕТ</h4>
+                        <ul class="footer-nav__list">
+                            <li class="footer-nav__item">
+                                <a href="" class="footer-nav__link">Мои данные</a>
+                            </li>
+                            <li class="footer-nav__item">
+                                <a href="" class="footer-nav__link">Заказы</a>
+                            </li>
+                            <li class="footer-nav__item">
+                                <a href="" class="footer-nav__link">Корзина</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer-nav">
+                        <h4 class="footer-nav__list-name">ИНФОРМАЦИЯ</h4>
+                        <ul class="footer-nav__list">
+                            <li class="footer-nav__item">
+                                <a href="" class="footer-nav__link">Склады</a>
+                            </li>
+                            <li class="footer-nav__item">
+                                <a href="" class="footer-nav__link">Оплата</a>
+                            </li>
+                            <li class="footer-nav__item">
+                                <a href="" class="footer-nav__link">Доставка</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js/libs.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
