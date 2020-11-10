@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="css/style.min.css" />
 </head>
 
+
 <body>
     <header class="header">
         <div class="haeder-wraper">
@@ -55,9 +56,9 @@
                         </div>
                     </div>
                     <!-- <div class="header-user__menu">
-                                    <button class="user-menu__cabinet"><img srcset="img/пользователь2.png" alt="My default image"></button>
-                                    <button class="user-menu__backet"><img src="/img/корзина.png" width="20" height="17" alt="" /></button>
-                                </div> -->
+                                <button class="user-menu__cabinet"><img srcset="img/пользователь2.png" alt="My default image"></button>
+                                <button class="user-menu__backet"><img src="/img/корзина.png" width="20" height="17" alt="" /></button>
+                            </div> -->
                 </div>
                 <div class="header-search">
                     <input class="search" type="search" name="search" placeholder="Поиск..." />
@@ -78,11 +79,12 @@
             </nav>
         </div>
     </header>
-    <main class="main main-order">
+    <main class="main main-cabinet">
         <section class="main-header">
-            <a href="#" class="main-return__link">«« Вернуться назад</a>
+
+            <a a href="#" class="main-return__link">«« Вернуться назад</a>
             <div class="main-nav__wrap">
-                <h1 class="main-heading">Заказ из файла</h1>
+                <h1 class="main-heading">Личный кабинет</h1>
                 <div id="menu-togle" class="menu-icon menu-burger">
                     <div class="menu-icon-line"></div>
                 </div>
@@ -90,13 +92,13 @@
             <nav class="main-nav menu-nav__close">
                 <ul class="main-nav__list">
                     <li class="main-nav__item">
-                        <a href="stock.html" class="mian-nav__link">Контакты складов</a>
+                        <a href="#" class="mian-nav__link">Контакты складов</a>
                     </li>
                     <li class="main-nav__item">
                         <a href="order__list.html" class="mian-nav__link">Список заказов</a>
                     </li>
                     <li class="main-nav__item">
-                        <a href="order__info.html" class="mian-nav__link">Информация о заказе</a>
+                        <a href="#" class="mian-nav__link">Информация о заказе</a>
                     </li>
                     <li class="main-nav__item">
                         <a href="order__file.html" class="mian-nav__link">Заказ из файла</a>
@@ -107,25 +109,113 @@
                 </ul>
             </nav>
         </section>
-        <section class="main-order__section order-file">
-            <h4 class="order-file__heading heading__black">Создать заказ из файла</h4>
-            <form class="order-file__form" enctype=" " method="post">
-                <div class="order-file__form--wrap">
-                    <div class="order-upload__wrap">
-                        <input class="order-file__field" type=" " name="entry_field" value="Файл не выбран">
-                        <!--
-                -->
-                        <input class="order-file__download" type="submit" value="ЗАГРУЗИТЬ">
+        <section class="main-wrap cabinet">
+            <div class="cabinet-wrap__info">
+                <div class="cabinet-wrap__information">
+                    <div class="cabinet-menager cabinet-wraper">
+                        <div class="cabinet-id">
+                            <h3 class="unloading-heading">Ваш ID</h3>
+                            <p>01</p>
+                        </div>
+                        <div class="cabinet-menager__info">
+                            <div class="cabinet-menager__wrap">
+                                <h3 class="unloading-heading">Ваш менеджер</h3>
+                                <a class="btn cabinet-btn" href="#">ВЫЙТИ</a>
+                            </div>
+                            <div class="cabinet-menager__wrap">
+                                <p class="menager-name">Иван Иванов</p>
+                                <p class="menager-city">Ростов - на - Дону</p>
+                                <p class="menager-mail">email@mail.ru</p>
+                                <p class="menager-phone">тел. 8 (800) 765 43 21</p>
+                                <p class="menager-phone__1">тел. 8 (800) 765 43 21</p>
+                            </div>
+                        </div>
                     </div>
-                    <input class="order-file__create" type="submit" value="СОЗДАТЬ ЗАКАЗ">
+
+                    <form class="cabinet-password cabinet-wraper">
+                        <div class="cabinet-password__wrap">
+                            <h3 class="unloading-heading">Сменить пароль</h3>
+                            <p class="btn-wrap"><input type="submit" class="btn cabinet-btn" value="СОХРАНИТЬ"></p>
+                        </div>
+                        <div class="cabinet-password__wrap">
+                            <p class="cabinet-password__change"><input class="input-border" type="password" name="old-password" id="old-password" placeholder="Старый пароль"></p>
+                            <p class="cabinet-password__change"><input class="input-border" type="password" name="new-password" id="new-password" placeholder="Новый пароль"></p>
+                            <p class="cabinet-password__change"><input class="input-border" type="password" name="repeat-password" id="repeat-password" placeholder="Повторить пароль"></p>
+                        </div>
+                    </form>
                 </div>
-            </form>
-            <div class="order-file__example example">
-                <p><a download href="№" class="example-remainder">Скачать пример файла для заказа из остатков</a></p>
-                <p><a download href="№" class="example-vendor">Скачать пример файла для заказа по артикулам</a></p>
+                <form action="" class="change-info cabinet-wraper">
+                    <h3 class="unloading-heading">Изменить данные</h3>
+                    <div class="change-info__wrap">
+                        <label for="organization">Организация</label>
+                        <input class="input-border" type="text" name="organization" id="organization">
+                    </div>
+                    <div class="change-info__wrap">
+                        <label for="change-mail">Почта</label>
+                        <input class="input-border" type="text" name="change-mail" id="change-mail">
+                    </div>
+                    <div class="change-info__wrap">
+                        <label for="inn">ИНН</label>
+                        <input class="input-border" type="text" name="inn" id="inn">
+                    </div>
+                    <div class="change-info__wrap">
+                        <label for="contact-person">Контактное лицо</label>
+                        <input class="input-border" type="text" name="contact-person" id="contact-person">
+                    </div>
+                    <div class="change-info__wrap">
+                        <label for="cange-phone">Телефон</label>
+                        <input class="input-border" type="text" name="cange-phone" id="cange-phone">
+                    </div>
+                    <div class="change-info__wrap">
+                        <label for="Checkpoint">КПП</label>
+                        <input class="input-border" type="text" name="Checkpoint" id="Checkpoint">
+                    </div>
+                    <div class="change-info__btn">
+                        <input class="btn cabinet-btn" type="submit" value="СОХРАНИТЬ">
+                    </div>
+                </form>
             </div>
-            </form>
+            </div>
+            <div class="cabinet-wrap__delivery cabinet-wraper">
+
+                <div class="cabinet-address">
+                    <h3 class="unloading-heading heading-mobil">Адрес доставки</h3>
+                    <div class="cabinet-address__wrap">
+                        <div class="cabinet-address__wraper">
+                            <label for="province">Край/Область/Регион</label>
+                            <input class="input-border" type="text" name="province" id="province">
+                        </div>
+                        <div class="cabinet-address__wraper">
+                            <label for="house">Улица, дом, квартира</label>
+                            <input class="input-border" type="text" name="house" id="house">
+                        </div>
+                    </div>
+                    <div class="cabinet-address__wrap">
+                        <div class="cabinet-address__wraper">
+                            <label for="town">Город</label>
+                            <input class="input-border" type="text" name="town" id="town">
+                        </div>
+                        <div class="cabinet-address__wraper">
+                            <label for="postcode">Почтовый индекс</label>
+                            <input class="input-border" type="text" name="postcode" id="postcode">
+                        </div>
+                    </div>
+                </div>
+                <div class="cabinet-delivery__address">
+                    <h3 class="unloading-heading heading-desktop">Адрес доставки</h3>
+                    <div class="cabinet-address__btn--wrap">
+                        <p>
+                            <input type="checkbox" name="cabinet-remember" id="cabinet-remember">
+                            <label for="cabinet-remember">Запомнить</label>
+                        </p>
+                        <div>
+                            <input class="btn cabinet-btn" type="submit" value="СОХРАНИТЬ">
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
+
     </main>
     <footer class="footer">
         <div class="footer-wrap">
@@ -185,10 +275,11 @@
             </div>
         </div>
     </footer>
+</body>
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="js/libs.min.js"></script>
-    <script src="js/main.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="js/libs.min.js"></script>
+<script src="js/main.js"></script>
 </body>
 
 </html>

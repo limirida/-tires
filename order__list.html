@@ -1,297 +1,301 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Document</title>
     <link rel="stylesheet" href="css/style.min.css" />
-  </head>
-  <body>
-    <body>
-      <header class="header">
+</head>
+
+
+<body>
+    <header class="header">
         <div class="haeder-wraper">
-          <div class="header-bar">
-            <div class="header-tell">
-              <img src="/img/телефон.png" alt="" />
-              <a href="tel:+78616430185" class="header-number">
-                +7 (861) 643 - 01 - 85
-              </a>
-              <a href="tel:+79182133523" class="header-number">
-                +7 (918) 213 - 35 - 23
-              </a>
+            <div class="header-bar">
+                <div class="header-tell">
+                    <img src="/img/телефон.png" alt="" />
+                    <a href="tel:+78616430185" class="header-number"> +7 (861) 643 - 01 - 85</a>
+                    <a href="tel:+79182133523" class="header-number">+7 (918) 213 - 35 - 23</a>
+                </div>
+                <div class="header-info">
+                    <ul class="header-info__list">
+                        <li class="header-info__item"><a href="stock.html">Склады</a></li>
+                        <li class="header-info__item"><a href="payment.html">Оплата</a></li>
+                        <li class="header-info__item"><a href="#">Доставка</a></li>
+                    </ul>
+                </div>
+                <div class="header-user user">
+                    <div class="user-info user-info__desktop">
+                        <picture>
+                            <picture>
+                                <source srcset="img/пользователь.png" media="(max-width: 970px)">
+                                <source srcset="img/пользователь2.png">
+                                <img srcset="img/пользователь2.png" alt="My default image">
+                            </picture>
+                            <a class="user-info__cabinet" href="cabinet.html">Кабинет</a>
+                    </div>
+                    <div class="user-info">
+                        <img src="/img/корзина.png" width="20" height="17" alt="" />
+                        <a class="user-info__backet" href="basket.html">Корзина</a>
+                    </div>
+                </div>
             </div>
-            <div class="header-info">
-              <ul class="header-info__list">
-                <li class="header-info__item"><a href="#">Склады</a></li>
-                <li class="header-info__item"><a href="#">Оплата</a></li>
-                <li class="header-info__item"><a href="#">Доставка</a></li>
-              </ul>
+            <div class="header-wrap">
+                <div class="header-logo__wraper">
+                    <div class="header-logo__wrap">
+                        <div class="header-logo">
+                            <a href="" class="header-logo__img">
+                                <img src="/img/header-logo.png" alt="" />
+                            </a>
+                        </div>
+                        <div class="user-info user-info__mobil">
+                            <a class="user-info__cabinet" href="cabinet.html"><img src="img/пользователь.png" alt="иконка пользователя"></a>
+                            <a class="user-info__backet" href="basket.html"><img src="/img/корзина.png" width="20" height="17" alt="иконка корзины" /></a>
+                        </div>
+                    </div>
+                    <!-- <div class="header-user__menu">
+                                    <button class="user-menu__cabinet"><img srcset="img/пользователь2.png" alt="My default image"></button>
+                                    <button class="user-menu__backet"><img src="/img/корзина.png" width="20" height="17" alt="" /></button>
+                                </div> -->
+                </div>
+                <div class="header-search">
+                    <input class="search" type="search" name="search" placeholder="Поиск..." />
+                </div>
             </div>
-            <div class="header-user user">
-              <div class="user-info">
-                <picture>
-                  <picture>
-                    <source srcset="img/пользователь.png" media="(max-width: 970px)">
-                    <source srcset="img/пользователь2.png">
-                    <img srcset="img/пользователь2.png" alt="My default image">
-                </picture>
-                <a class="user-info__cabinet" href="#">Кабинет</a>
-              </div>
-              <div class="user-info">
-                <img src="/img/корзина.png" width="20" height="17" alt="" />
-                <a class="user-info__backet" href="#">Корзина</a>
-              </div>
-            </div>
-          </div>
-          <div class="header-wrap">
-            <div class="header-logo__wraper">
-            <div class="header-logo">
-              <a href="" class="header-logo__img">
-                <img src="/img/header-logo.png" alt="" />
-              </a>
-            </div>
-            <div class="header-user__menu">
-              <button class="user-menu__cabinet"><img srcset="img/пользователь2.png" alt="My default image"></button>
-              <button class="user-menu__backet"><img src="/img/корзина.png" width="20" height="17" alt="" /></button>
-            </div>
-          </div>
-            <div class="header-search">
-              <input
-                class="search"
-                type="search"
-                name="search"
-                placeholder="Поиск..."
-              />
-            </div>
-          </div>
-          <nav class="header-products">
-            <ul class="header-products__list">
-              <li class="header-products-item">
-                <a href="#" class="header-products__link">Шины</a>
-              </li>
-              <li class="header-products-item">
-                <a href="#" class="header-products__link">Диски</a>
-              </li>
-              <li class="header-products-item">
-                <a href="#" class="header-products__link">Запчасти</a>
-              </li>
-            </ul>
-          </nav>
+            <nav class="header-products">
+                <ul class="header-products__list">
+                    <li class="header-products-item">
+                        <a href="index.html" class="header-products__link">Шины</a>
+                    </li>
+                    <li class="header-products-item">
+                        <a href="#" class="header-products__link">Диски</a>
+                    </li>
+                    <li class="header-products-item">
+                        <a href="#" class="header-products__link">Запчасти</a>
+                    </li>
+                </ul>
+            </nav>
         </div>
-      </header>
-      <main class="main main-order">
-        <section class="main-header">
-          <a href="#" class="main-return__link">«« Вернуться назад</a>
-          <h1 class="main-heading">Список заказов</h1>
-          <nav class="main-nav">
-            <ul class="main-nav__list">
-              <li class="main-nav__item">
-                <a href="#" class="mian-nav__link">Контакты складов</a>
-              </li>
-              <li class="main-nav__item">
-                <a href="order__list.html" class="mian-nav__link">Список заказов</a>
-              </li>
-              <li class="main-nav__item">
-                <a href="#" class="mian-nav__link">Информация о заказе</a>
-              </li>
-              <li class="main-nav__item">
-                <a href="order__file.html" class="mian-nav__link">Заказ из файла</a>
-              </li>
-              <li class="main-nav__item">
-                <a href="unloading.html" class="mian-nav__link">Выгрузка прайсов</a>
-              </li>
-            </ul>
-          </nav>
-        </section>
-       <section class="main-order__list order-list">
-        <div class="order-list__search">
-            <div class="order-list__search--wrap">
-                <div class="order-list__search--wraper">
-                <input class="order-list__search--filter" type="number" value="150">
-                <input class="order-list__search--filter" type="text" value="Артикул">
+    </header>
+    <main class="main main-order ">
+        <section class="main-header ">
+            <a a href="#" class="main-return__link">«« Вернуться назад</a>
+            <div class="main-nav__wrap">
+                <h1 class="main-heading">Список заказов</h1>
+                <div id="menu-togle" class="menu-icon menu-burger">
+                    <div class="menu-icon-line"></div>
+                </div>
             </div>
-            <div class="order-list__search--wraper">
-                <select class="order-list__search--filter order-list__search--select">
+            <nav class="main-nav menu-nav__close">
+                <ul class="main-nav__list">
+                    <li class="main-nav__item">
+                        <a href="stock.html" class="mian-nav__link">Контакты складов</a>
+                    </li>
+                    <li class="main-nav__item">
+                        <a href="order__list.html" class="mian-nav__link">Список заказов</a>
+                    </li>
+                    <li class="main-nav__item">
+                        <a href="order__info.html" class="mian-nav__link">Информация о заказе</a>
+                    </li>
+                    <li class="main-nav__item">
+                        <a href="order__file.html" class="mian-nav__link">Заказ из файла</a>
+                    </li>
+                    <li class="main-nav__item">
+                        <a href="unloading.html" class="mian-nav__link">Выгрузка прайсов</a>
+                    </li>
+                </ul>
+            </nav>
+        </section>
+        <section class="main-order__list order-list ">
+            <div class="order-list__search ">
+                <div class="order-list__search--wrap ">
+                    <div class="order-list__search--wraper ">
+                        <input class="order-list__search--filter " type="number " value="150 ">
+                        <input class="order-list__search--filter " type="text " value="Артикул ">
+                    </div>
+                    <div class="order-list__search--wraper ">
+                        <select class="order-list__search--filter order-list__search--select ">
                     <option>Склад</option>
                     <option>Пункт 2</option>
                 </select>
-                <select class="order-list__search--filter order-list__search--select">
+                        <select class="order-list__search--filter order-list__search--select ">
                     <option>Статус</option>
                     <option>Пункт 2</option>
                 </select>
+                    </div>
+                </div>
+                <div class="order-list__reset ">
+                    <button class="order-list__reset__btn ">Сбросить</button>
+                </div>
+
             </div>
-        </div>
-            <div class="order-list__reset">
-                <button class="order-list__reset__btn">Сбросить</button>
+            <div class="order-list__table table ">
+                <table class="table-oredrs ">
+                    <tr class="table-oredrs--name ">
+                        <th class="table-oredrs--date-name ">
+                            <span class="table-oredrs--number table-oredrs__mobile ">№</span>
+                            <span class="table-oredrs--number table-oredrs__desktop ">Номер</span>
+                            <span class="table-oredrs--date ">Дата</span>
+                        </th>
+                        <th class="table-oredrs--quantity table-oredrs__mobile ">Кол-во товара</th>
+                        <th class="table-oredrs--quantity table-oredrs__desktop ">Количество товара</th>
+                        <th class="table-oredrs--stock ">Склад</th>
+                        <th class="table-oredrs--sum ">Сумма</th>
+                        <th class="table-oredrs--status ">Статус</th>
+                    </tr>
+                    <tr class="table-orders--info ">
+                        <td class="table-oredrs--date-name ">
+                            <span class="table-oredrs--number ">150</span>
+                            <span class="table-oredrs--date ">01.01.2020</span>
+                        </td>
+                        <td class="table-oredrs--quantity ">42</td>
+                        <td class="table-oredrs--stock ">Вавилова 105</td>
+                        <td class="table-oredrs--sum ">105 020 р</td>
+                        <td class="table-oredrs--status ">Оплачено</td>
+                    </tr>
+                    <tr class="table-orders--info ">
+                        <td class="table-oredrs--date-name ">
+                            <span class="table-oredrs--number ">150</span>
+                            <span class="table-oredrs--date ">01.01.2020</span>
+                        </td>
+                        <td class="table-oredrs--quantity ">42</td>
+                        <td class="table-oredrs--stock ">Вавилова 105</td>
+                        <td class="table-oredrs--sum ">105 020 р</td>
+                        <td class="table-oredrs--status ">Оплачено</td>
+                    </tr>
+                    <tr class="table-orders--info ">
+                        <td class="table-oredrs--date-name ">
+                            <span class="table-oredrs--number ">150</span>
+                            <span class="table-oredrs--date ">01.01.2020</span>
+                        </td>
+                        <td class="table-oredrs--quantity ">42</td>
+                        <td class="table-oredrs--stock ">Вавилова 105</td>
+                        <td class="table-oredrs--sum ">105 020 р</td>
+                        <td class="table-oredrs--status ">Оплачено</td>
+                    </tr>
+                    <tr class="table-orders--info ">
+                        <td class="table-oredrs--date-name ">
+                            <span class="table-oredrs--number ">150</span>
+                            <span class="table-oredrs--date ">01.01.2020</span>
+                        </td>
+                        <td class="table-oredrs--quantity ">42</td>
+                        <td class="table-oredrs--stock ">Вавилова 105</td>
+                        <td class="table-oredrs--sum ">105 020 р</td>
+                        <td class="table-oredrs--status ">Оплачено</td>
+                    </tr>
+                    <tr class="table-orders--info ">
+                        <td class="table-oredrs--date-name ">
+                            <span class="table-oredrs--number ">150</span>
+                            <span class="table-oredrs--date ">01.01.2020</span>
+                        </td>
+                        <td class="table-oredrs--quantity ">42</td>
+                        <td class="table-oredrs--stock ">Вавилова 105</td>
+                        <td class="table-oredrs--sum ">105 020 р</td>
+                        <td class="table-oredrs--status ">Оплачено</td>
+                    </tr>
+                    <tr class="table-orders--info ">
+                        <td class="table-oredrs--date-name ">
+                            <span class="table-oredrs--number ">150</span>
+                            <span class="table-oredrs--date ">01.01.2020</span>
+                        </td>
+                        <td class="table-oredrs--quantity ">42</td>
+                        <td class="table-oredrs--stock ">Вавилова 105</td>
+                        <td class="table-oredrs--sum ">105 020 р</td>
+                        <td class="table-oredrs--status ">Оплачено</td>
+                    </tr>
+                    <tr class="table-orders--info ">
+                        <td class="table-oredrs--date-name ">
+                            <span class="table-oredrs--number ">150</span>
+                            <span class="table-oredrs--date ">01.01.2020</span>
+                        </td>
+                        <td class="table-oredrs--quantity ">42</td>
+                        <td class="table-oredrs--stock ">Вавилова 105</td>
+                        <td class="table-oredrs--sum ">105 020 р</td>
+                        <td class="table-oredrs--status ">Оплачено</td>
+                    </tr>
+                    <tr class="table-orders--info ">
+                        <td class="table-oredrs--date-name ">
+                            <span class="table-oredrs--number ">150</span>
+                            <span class="table-oredrs--date ">01.01.2020</span>
+                        </td>
+                        <td class="table-oredrs--quantity ">42</td>
+                        <td class="table-oredrs--stock ">Вавилова 105</td>
+                        <td class="table-oredrs--sum ">105 020 р</td>
+                        <td class="table-oredrs--status ">Оплачено</td>
+                    </tr>
+                </table>
+            </div>
+        </section>
+    </main>
+    <footer class="footer ">
+        <div class="footer-wrap ">
+            <div class="footer-logo__wrap ">
+                <div class="footer-logo__wraper ">
+                    <a href="# " class="footer-logo ">
+                        <img src="img/footer-logo.png " alt=" " />
+                    </a>
+                </div>
+                <p class="footer-info__text ">
+                    Сайт не является публичной офертой,определяемой положениями Статьи 437 (2) ГК РФ и носит исключительно информационный характер.
+                </p>
             </div>
 
-        </div>
-        <div class="order-list__table table">
-            <table class="table-oredrs">
-                <tr class="table-oredrs--name">
-                    <th class="table-oredrs--date-name">
-                        <span class="table-oredrs--number table-oredrs__mobile">№</span>
-                        <span class="table-oredrs--number table-oredrs__desktop">Номер</span>
-                        <span class="table-oredrs--date">Дата</span>
-                    </th>
-                    <th class="table-oredrs--quantity table-oredrs__mobile">Кол-во товара</th>
-                    <th class="table-oredrs--quantity table-oredrs__desktop">Количество товара</th>
-                    <th class="table-oredrs--stock">Склад</th>
-                    <th class="table-oredrs--sum">Сумма</th>
-                    <th class="table-oredrs--status">Статус</th>
-                </tr>
-                <tr class="table-orders--info">
-                    <td class="table-oredrs--date-name">
-                        <span class="table-oredrs--number">150</span>
-                        <span class="table-oredrs--date">01.01.2020</span>
-                    </td>
-                    <td class="table-oredrs--quantity">42</td>
-                    <td class="table-oredrs--stock">Вавилова 105</td>
-                    <td class="table-oredrs--sum">105 020 р</td>
-                    <td class="table-oredrs--status">Оплачено</td>
-                </tr>
-                <tr class="table-orders--info">
-                    <td class="table-oredrs--date-name">
-                        <span class="table-oredrs--number">150</span>
-                        <span class="table-oredrs--date">01.01.2020</span>
-                    </td>
-                    <td class="table-oredrs--quantity">42</td>
-                    <td class="table-oredrs--stock">Вавилова 105</td>
-                    <td class="table-oredrs--sum">105 020 р</td>
-                    <td class="table-oredrs--status">Оплачено</td>
-                </tr>
-                <tr class="table-orders--info">
-                    <td class="table-oredrs--date-name">
-                        <span class="table-oredrs--number">150</span>
-                        <span class="table-oredrs--date">01.01.2020</span>
-                    </td>
-                    <td class="table-oredrs--quantity">42</td>
-                    <td class="table-oredrs--stock">Вавилова 105</td>
-                    <td class="table-oredrs--sum">105 020 р</td>
-                    <td class="table-oredrs--status">Оплачено</td>
-                </tr>
-                <tr class="table-orders--info">
-                    <td class="table-oredrs--date-name">
-                        <span class="table-oredrs--number">150</span>
-                        <span class="table-oredrs--date">01.01.2020</span>
-                    </td>
-                    <td class="table-oredrs--quantity">42</td>
-                    <td class="table-oredrs--stock">Вавилова 105</td>
-                    <td class="table-oredrs--sum">105 020 р</td>
-                    <td class="table-oredrs--status">Оплачено</td>
-                </tr>
-                <tr class="table-orders--info">
-                    <td class="table-oredrs--date-name">
-                        <span class="table-oredrs--number">150</span>
-                        <span class="table-oredrs--date">01.01.2020</span>
-                    </td>
-                    <td class="table-oredrs--quantity">42</td>
-                    <td class="table-oredrs--stock">Вавилова 105</td>
-                    <td class="table-oredrs--sum">105 020 р</td>
-                    <td class="table-oredrs--status">Оплачено</td>
-                </tr>
-                <tr class="table-orders--info">
-                    <td class="table-oredrs--date-name">
-                        <span class="table-oredrs--number">150</span>
-                        <span class="table-oredrs--date">01.01.2020</span>
-                    </td>
-                    <td class="table-oredrs--quantity">42</td>
-                    <td class="table-oredrs--stock">Вавилова 105</td>
-                    <td class="table-oredrs--sum">105 020 р</td>
-                    <td class="table-oredrs--status">Оплачено</td>
-                </tr>
-                <tr class="table-orders--info">
-                    <td class="table-oredrs--date-name">
-                        <span class="table-oredrs--number">150</span>
-                        <span class="table-oredrs--date">01.01.2020</span>
-                    </td>
-                    <td class="table-oredrs--quantity">42</td>
-                    <td class="table-oredrs--stock">Вавилова 105</td>
-                    <td class="table-oredrs--sum">105 020 р</td>
-                    <td class="table-oredrs--status">Оплачено</td>
-                </tr>
-                <tr class="table-orders--info">
-                    <td class="table-oredrs--date-name">
-                        <span class="table-oredrs--number">150</span>
-                        <span class="table-oredrs--date">01.01.2020</span>
-                    </td>
-                    <td class="table-oredrs--quantity">42</td>
-                    <td class="table-oredrs--stock">Вавилова 105</td>
-                    <td class="table-oredrs--sum">105 020 р</td>
-                    <td class="table-oredrs--status">Оплачено</td>
-                </tr>
-            </table>
-        </div>
-       </section>
-      </main>
-      <footer class="footer">
-        <div class="footer-wrap">
-          <div class="footer-logo__wrap">
-            <div class="footer-logo__wraper">
-              <a href="#" class="footer-logo">
-                <img src="img/footer-logo.png" alt="" />
-              </a>
+            <div class="footer-info ">
+                <div class="footer-nav ">
+                    <h4 class="footer-nav__list-name ">КАТАЛОГ</h4>
+                    <ul class="footer-nav__list ">
+                        <li class="footer-nav__item ">
+                            <a href="index.html " class="footer-nav__link ">Шины</a>
+                        </li>
+                        <li class="footer-nav__item ">
+                            <a href="# " class="footer-nav__link ">Диски</a>
+                        </li>
+                        <li class="footer-nav__item ">
+                            <a href="# " class="footer-nav__link ">Запчасти</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-nav ">
+                    <h4 class="footer-nav__list-name ">КАБИНЕТ</h4>
+                    <ul class="footer-nav__list ">
+                        <li class="footer-nav__item ">
+                            <a href=" " class="footer-nav__link ">Мои данные</a>
+                        </li>
+                        <li class="footer-nav__item ">
+                            <a href="order__list.html" class="footer-nav__link ">Заказы</a>
+                        </li>
+                        <li class="footer-nav__item ">
+                            <a href="basket.html" class="footer-nav__link ">Корзина</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-nav ">
+                    <h4 class="footer-nav__list-name ">ИНФОРМАЦИЯ</h4>
+                    <ul class="footer-nav__list ">
+                        <li class="footer-nav__item ">
+                            <a href="stock.html" class="footer-nav__link ">Склады</a>
+                        </li>
+                        <li class="footer-nav__item ">
+                            <a href="payment.html" class="footer-nav__link ">Оплата</a>
+                        </li>
+                        <li class="footer-nav__item ">
+                            <a href=" " class="footer-nav__link ">Доставка</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-            <p class="footer-info__text">
-              Сайт не является публичной офертой,определяемой положениями Статьи
-              437 (2) ГК РФ и носит исключительно информационный характер.
-            </p>
-          </div>
-          
-          <div class="footer-info">
-            <div class="footer-nav">
-              <h4 class="footer-nav__list-name">КАТАЛОГ</h4>
-              <ul class="footer-nav__list">
-                <li class="footer-nav__item">
-                  <a href="#" class="footer-nav__link">Шины</a>
-                </li>
-                <li class="footer-nav__item">
-                  <a href="#" class="footer-nav__link">Диски</a>
-                </li>
-                <li class="footer-nav__item">
-                  <a href="#" class="footer-nav__link">Запчасти</a>
-                </li>
-              </ul>
-            </div>
-            <div class="footer-nav">
-              <h4 class="footer-nav__list-name">КАБИНЕТ</h4>
-              <ul class="footer-nav__list">
-                <li class="footer-nav__item">
-                  <a href="" class="footer-nav__link">Мои данные</a>
-                </li>
-                <li class="footer-nav__item">
-                  <a href="" class="footer-nav__link">Заказы</a>
-                </li>
-                <li class="footer-nav__item">
-                  <a href="" class="footer-nav__link">Корзина</a>
-                </li>
-              </ul>
-            </div>
-            <div class="footer-nav">
-              <h4 class="footer-nav__list-name">ИНФОРМАЦИЯ</h4>
-              <ul class="footer-nav__list">
-                <li class="footer-nav__item">
-                  <a href="" class="footer-nav__link">Склады</a>
-                </li>
-                <li class="footer-nav__item">
-                  <a href="" class="footer-nav__link">Оплата</a>
-                </li>
-                <li class="footer-nav__item">
-                  <a href="" class="footer-nav__link">Доставка</a>
-                </li>
-              </ul>
-            </div>
-          </div>
         </div>
 
 
-       
-      </footer>
-    </body>
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="js/libs.min.js"></script>
-    <script src="js/main.js"></script>
-  </body>
+    </footer>
+</body>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js "></script>
+<script src="js/libs.min.js "></script>
+<script src="js/main.js "></script>
+</body>
+
 </html>

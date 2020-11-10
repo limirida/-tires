@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="css/style.min.css" />
 </head>
 
+
+
 <body>
     <header class="header">
         <div class="haeder-wraper">
@@ -55,9 +57,9 @@
                         </div>
                     </div>
                     <!-- <div class="header-user__menu">
-                                    <button class="user-menu__cabinet"><img srcset="img/пользователь2.png" alt="My default image"></button>
-                                    <button class="user-menu__backet"><img src="/img/корзина.png" width="20" height="17" alt="" /></button>
-                                </div> -->
+                                <button class="user-menu__cabinet"><img srcset="img/пользователь2.png" alt="My default image"></button>
+                                <button class="user-menu__backet"><img src="/img/корзина.png" width="20" height="17" alt="" /></button>
+                            </div> -->
                 </div>
                 <div class="header-search">
                     <input class="search" type="search" name="search" placeholder="Поиск..." />
@@ -78,55 +80,35 @@
             </nav>
         </div>
     </header>
-    <main class="main main-order">
-        <section class="main-header">
-            <a href="#" class="main-return__link">«« Вернуться назад</a>
-            <div class="main-nav__wrap">
-                <h1 class="main-heading">Заказ из файла</h1>
-                <div id="menu-togle" class="menu-icon menu-burger">
-                    <div class="menu-icon-line"></div>
+    <main class="main main-checkout">
+        <div class="main-checkout__wrap">
+            <section class="main-header">
+                <a href="#" class="main-return__link">«« Вернуться назад</a>
+                <h1 class="main-heading">Ваш заказ успешно оформлен</h1>
+                <div class="checkout-info">
+                    <p class="checkout-info__number">Номер вашего заказа: <span>AB123456</span> </p>
                 </div>
-            </div>
-            <nav class="main-nav menu-nav__close">
-                <ul class="main-nav__list">
-                    <li class="main-nav__item">
-                        <a href="stock.html" class="mian-nav__link">Контакты складов</a>
-                    </li>
-                    <li class="main-nav__item">
-                        <a href="order__list.html" class="mian-nav__link">Список заказов</a>
-                    </li>
-                    <li class="main-nav__item">
-                        <a href="order__info.html" class="mian-nav__link">Информация о заказе</a>
-                    </li>
-                    <li class="main-nav__item">
-                        <a href="order__file.html" class="mian-nav__link">Заказ из файла</a>
-                    </li>
-                    <li class="main-nav__item">
-                        <a href="unloading.html" class="mian-nav__link">Выгрузка прайсов</a>
-                    </li>
-                </ul>
-            </nav>
-        </section>
-        <section class="main-order__section order-file">
-            <h4 class="order-file__heading heading__black">Создать заказ из файла</h4>
-            <form class="order-file__form" enctype=" " method="post">
-                <div class="order-file__form--wrap">
-                    <div class="order-upload__wrap">
-                        <input class="order-file__field" type=" " name="entry_field" value="Файл не выбран">
-                        <!--
-                -->
-                        <input class="order-file__download" type="submit" value="ЗАГРУЗИТЬ">
-                    </div>
-                    <input class="order-file__create" type="submit" value="СОЗДАТЬ ЗАКАЗ">
-                </div>
-            </form>
-            <div class="order-file__example example">
-                <p><a download href="№" class="example-remainder">Скачать пример файла для заказа из остатков</a></p>
-                <p><a download href="№" class="example-vendor">Скачать пример файла для заказа по артикулам</a></p>
-            </div>
-            </form>
-        </section>
+            </section>
+        </div>
+
     </main>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     <footer class="footer">
         <div class="footer-wrap">
             <div class="footer-logo__wrap">
@@ -185,10 +167,11 @@
             </div>
         </div>
     </footer>
+</body>
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="js/libs.min.js"></script>
-    <script src="js/main.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="js/libs.min.js"></script>
+<script src="js/main.js"></script>
 </body>
 
 </html>

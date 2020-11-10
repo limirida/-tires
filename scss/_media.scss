@@ -1,918 +1,1930 @@
-@media (max-width: 1311px) {
-  .main-tires {
-    background: url(../img/car.png) no-repeat;
-    background-size: 517px 353px;
-    background-position: 100% 74px;
-  }
+@media (min-width: 1220px) {
+    .cards-galery {
+        margin-top: 15px;
+        width: 77%;
+        display: flex;
+        flex-wrap: wrap;
+        .product-info {
+            width: 100%;
+        }
+        .product-name__wraper {
+            margin-left: 16px;
+        }
+        .product-general {
+            flex-direction: row-reverse;
+        }
+        .product-result__wrap {
+            display: flex;
+            flex-direction: row-reverse;
+        }
+        .result-cards {
+            width: 46%;
+            margin-right: 31px;
+            margin-bottom: 31px;
+        }
+        .product {
+            flex-direction: column;
+        }
+        .result-card__info--desktop {
+            display: none;
+        }
+        .result-card__info--mobil {
+            width: 100%;
+            display: flex;
+            margin: 0;
+        }
+        .result-card__wrap .result-card__info {
+            margin: 0;
+        }
+        .result-card__info {
+            padding: 0;
+        }
+        .product-general {
+            width: 100%;
+            justify-content: start;
+        }
+        .result-card__wrap .product-name__wrap {
+            max-width: 300px;
+        }
+        .cards img {
+            width: 45px;
+            height: 59px;
+            margin: 0;
+        }
+        .product-article {
+            width: 170px;
+        }
+        .result-card__wrap .product-name__wrap {
+            margin: 0;
+            justify-content: space-between;
+        }
+        .result-card__wrap .result-card__info {
+            margin-left: 8px;
+        }
+        .result-card__info {
+            max-width: 360px;
+        }
+        .product-general {
+            padding-top: 8px;
+            padding-bottom: 22px;
+        }
+        .result-card__wrap .cards {
+            max-width: 450px;
+        }
+        .result-card__wrap .cards {
+            padding-left: 0;
+        }
+        .result-card__wrap .product-name__wrap {
+            padding: 0;
+        }
+        .result-card__info {
+            max-width: 78%;
+        }
+        .product-name__wrap {
+            flex-direction: row;
+            width: 500px;
+        }
+    }
 }
 
-@media (max-width: 1235px) {
-  .header::before {
-    left: 74%;
-  }
+@media (max-width: 1856px) {
+    .footer::before {
+        content: ' ';
+        position: absolute;
+        background: url(../img/3x.png) no-repeat;
+        width: 850px;
+        height: 139px;
+        right: 35%;
+        top: -50px;
+        left: 0;
+    }
+    .footer::after {
+        content: ' ';
+        position: absolute;
+        background: url(../img/shire-2x.png) no-repeat;
+        height: 220px;
+        top: -135px;
+        left: 10%;
+    }
+}
 
-  .main-tires {
-    background: url(../img/car.png) no-repeat;
-    background-size: 450px 300px;
-    background-position: 100% 74px;
-  }
+@media (max-width: 1400px) {
+    .cards-galery {
+        .product-name__wrap {
+            flex-direction: column;
+            margin: 0;
+            width: 300px;
+        }
+        .product-name__wraper {
+            flex-direction: column;
+            padding-bottom: 10px;
+        }
+        .product-name:first-child {
+            padding-bottom: 5px;
+        }
+        .product-general {
+            justify-content: space-between;
+            padding-top: 20px;
+            margin-left: 8px;
+        }
+        .product-name__wraper {
+            margin: 0;
+        }
+        .product-info__entry-field input {
+            width: 56px;
+        }
+        .product-info__stock {
+            color: #0199fd;
+            padding: 4px 9px;
+        }
+        .result-card__info {
+            max-width: 83%;
+        }
+    }
+}
+
+@media (max-width: 1370px) {
+    .product-info {
+        width: 404px;
+    }
+}
+
+@media (max-width: 1311px) {
+    .main-tires {
+        background: url(../img/car.png) no-repeat;
+        background-size: 517px 353px;
+        background-position: 100% 74px;
+    }
+}
+
+@media (max-width: 1238px) {
+    .header::before {
+        left: 74%;
+    }
+    .main-tires {
+        background: url(../img/car.png) no-repeat;
+        background-size: 450px 300px;
+        background-position: 100% 74px;
+    }
 }
 
 @media (max-width: 1240px) {
-  .header-wraper {
-    width: 970px;
-    margin: 0 auto;
-  }
-
-  .formation-unload__wrap {
-    flex-direction: column;
-  }
-
-  .unloadin-filter .unloadin-filter__wraper {
-    flex-direction: column;
-  }
-
-  .unloadin-assembly__wrap {
-    display: flex;
-    flex-direction: column;
-    text-align: right;
-  }
-
-  .unloading-assembly {
-    align-items: baseline;
-  }
-
-  .unloadin-assembly__btn {
-    margin-top: 26px;
-    margin-left: 40%;
-  }
-
-  .unloadin-assembly__format label {
-    margin-right: 63px;
-  }
-
-  .result-card__wrap {
-    .cards {
-      margin-right: 15px;
+    .header-wraper {
+        width: 970px;
+        margin: 0 auto;
     }
-
-    .product-info__your-price {
-      font-size: 14px;
+    .formation-unload__wrap {
+        flex-direction: column;
     }
-
-    .product-name__wrap {
-      max-width: 99px;
-      flex-wrap: wrap;
-      padding-top: 31px;
-      margin-right: 27px;
-
-      p {
-        font-size: 14px;
-        padding-bottom: 14px;
-      }
+    .unloadin-filter .unloadin-filter__wraper {
+        flex-direction: column;
     }
-
+    .unloadin-assembly__wrap {
+        display: flex;
+        flex-direction: column;
+        text-align: right;
+    }
+    .unloading-assembly {
+        align-items: baseline;
+    }
+    .unloadin-assembly__btn {
+        margin-top: 26px;
+        margin-left: 40%;
+    }
+    .unloadin-assembly__format label {
+        margin-right: 63px;
+    }
+    .result-card__wrap {
+        .cards {
+            margin-right: 15px;
+        }
+        .product-info__your-price {
+            font-size: 14px;
+        }
+        .product-name__wrap {
+            max-width: 99px;
+            flex-wrap: wrap;
+            padding-top: 31px;
+            margin-right: 27px;
+            p {
+                font-size: 14px;
+                padding-bottom: 14px;
+            }
+        }
+        .product-name__wraper {
+            width: 200px;
+        }
+    }
+    .product-info {
+        padding: 0 5px;
+    }
+    .result-card__wrap .product-name__wraper {
+        width: 100%;
+    }
     .product-name__wraper {
-      width: 200px;
+        padding: 0;
     }
-  }
-
-  .product-info {
-    padding: 0 5px;
-  }
-
-  .result-card__wrap .product-name__wraper {
-    width: 100%;
-  }
-
-  .product-name__wraper {
-    padding: 0;
-  }
-
-  .product {
-    justify-content: space-between;
-  }
-
-  .product-article {
-    width: 106px;
-  }
-
-  .product-general {
-    margin: 0;
-  }
-
-  .result-card__info {
-    max-width: 318px;
-    margin-left: 191px;
-  }
-
-  .result-catalog-wrap {
-    justify-content: center;
-  }
-
-  .result-card__info p {
-    margin-left: 24px;
-  }
-
-  .result-card__info p:nth-child(3n) {
-    margin-left: 15px;
-  }
-
-  .result-card__wrap .cards {
-    max-width: 633px;
-  }
-
-  .product-info__internet-price {
-    margin-left: 26px;
-  }
-
-  .product-info__your-price {
-    margin-left: 58px;
-  }
-
-  .backet-bar .product-name__wrap {
-    margin: 0;
-  }
-
-  .backet-bar .product-general {
-    margin-left: 29px;
-  }
-
-  .product-info__entry-field input {
-    width: 68px;
-  }
+    .product {
+        justify-content: space-between;
+    }
+    .product-article {
+        width: 106px;
+    }
+    .product-general {
+        margin: 0;
+    }
+    .result-catalog-wrap {
+        justify-content: center;
+    }
+    .result-card__wrap .cards {
+        max-width: 633px;
+    }
+    .backet-bar .product-name__wrap {
+        margin: 0;
+    }
+    .backet-bar .product-general {
+        margin-left: 29px;
+    }
+    .product-info__entry-field input {
+        width: 68px;
+    }
+    .result-card__info {
+        margin-left: 36%;
+        width: 38%;
+    }
 }
 
 @media (max-width: 1220px) {
-  .product-name__wraper {
-    flex-direction: column;
-    color: #0199fd;
-  }
+    .product-name__wraper {
+        flex-direction: column;
+        color: #0199fd;
+    }
+    .cabinet-wrap__information {
+        .cabinet-menager {
+            max-width: 373px;
+        }
+        .cabinet-password {
+            max-width: 373px;
+        }
+    }
+    .cabinet-password__wrap {
+        .cabinet-password__change input {
+            width: 185px;
+        }
+    }
+    .cabinet-wraper {
+        padding: 48px 14px 44px 28px;
+    }
+    .change-info__btn {
+        padding-top: 18px;
+    }
+    .cabinet-id {
+        p {
+            text-align: left;
+            width: 46%;
+        }
+    }
+    .result-info__btn--wrap {
+        display: none;
+    }
 }
 
 @media (max-width: 1216px) {
-  .haeder-wraper {
-    padding: 0 15px;
-  }
-
-  .header-wrap {
-    max-width: 970px;
-  }
-
-  .main {
-    max-width: 940px;
-  }
-
-  .main-return__link {
-    padding-left: 66px;
-  }
-
-  .fomation-wraper {
-    width: 536px;
-  }
-
-  .unloading-categories {
-    width: 374px;
-  }
-
-  .previously-info__name,
-  .previously-info__item {
-    width: 374px;
-  }
-
-  .unloading-common__wrap {
-    padding-left: 15px;
-  }
-
-  .footer-nav {
-    margin-right: 98px;
-  }
-
-  .footer-nav:last-child {
-    margin-right: 0;
-  }
-
-  .footer-info {
-    padding-right: 121px;
-  }
-
-  .footer-info__text {
-    padding-bottom: 90px;
-  }
-
-  .header-tell {
-    width: 40%;
-  }
+    .haeder-wraper {
+        padding: 0 15px;
+    }
+    .header-wrap {
+        max-width: 970px;
+    }
+    .main {
+        max-width: 940px;
+    }
+    .main-return__link {
+        padding-left: 66px;
+    }
+    .fomation-wraper {
+        width: 536px;
+    }
+    .unloading-categories {
+        width: 374px;
+    }
+    .previously-info__name,
+    .previously-info__item {
+        width: 374px;
+    }
+    .unloading-common__wrap {
+        padding-left: 15px;
+    }
+    .footer-nav {
+        margin-right: 98px;
+    }
+    .footer-nav:last-child {
+        margin-right: 0;
+    }
+    .footer-info {
+        padding-right: 121px;
+    }
+    .footer-info__text {
+        padding-bottom: 90px;
+    }
+    .header-tell {
+        width: 35%;
+    }
+    .main-basket {
+        .main-return__link {
+            padding: 0;
+        }
+    }
+    .footer::before {
+        content: ' ';
+        position: absolute;
+        background: url(../img/3x.png) no-repeat;
+        width: 850px;
+        height: 139px;
+        right: 35%;
+        top: -50px;
+        left: -160px;
+    }
+    .footer::after {
+        content: ' ';
+        position: absolute;
+        background: url(../img/shire-2x.png) no-repeat;
+        height: 220px;
+        top: -135px;
+        left: 10%;
+    }
 }
 
 @media (max-width: 1026px) {
-  .header-products {
-    padding-left: 30px;
-  }
-}
-
-@media (max-width: 970px) {
-  .main-order__section {
-    padding-left: 65px;
-  }
-
-  .header-search input {
-    width: 455px;
-  }
-
-  .header-number:last-child {
-    margin-left: 19px;
-  }
-
-  .header::before {
-    left: 81%;
-  }
-
-  .footer-info {
-    padding: 0;
-  }
-
-  .footer-nav {
-    margin: 0;
-  }
-
-  .footer-logo__wrap {
-    margin: 0;
-  }
-
-  .footer-logo__wrap {
-    max-width: 278px;
-  }
-
-  .footer-nav {
-    width: 134px;
-    margin: 0 auto;
-  }
-
-  .result-card__wrap {
-    .product-info__internet-price {
-      margin-left: 27px;
+    .header-products {
+        padding-left: 30px;
     }
-  }
+    .header::before {
+        left: 86%;
+    }
+}
+
+@media (max-width: 972px) {
+    .main-order__section {
+        padding-left: 65px;
+    }
+    .header-search input {
+        width: 455px;
+    }
+    .header-number:last-child {
+        margin-left: 19px;
+    }
+    .footer-info {
+        padding: 0;
+    }
+    .footer-nav {
+        margin: 0;
+    }
+    .footer-logo__wrap {
+        margin: 0;
+    }
+    .footer-logo__wrap {
+        max-width: 278px;
+    }
+    .footer-nav {
+        width: 134px;
+        margin: 0 auto;
+    }
+    .main-basket .backet-bar__items {
+        border: solid 1px #0199fd;
+    }
+    .main-basket .product__place {
+        display: flex;
+        color: #5b5b5b;
+    }
+    .main-basket .backet-bar__quantity {
+        color: #5b5b5b;
+    }
+    .main-stock {
+        padding: 0 15px;
+    }
+    .main-stock {
+        padding-bottom: 198px;
+    }
+    .unloading-common__wrap {
+        padding: 0;
+    }
+    .fomation-wraper {
+        padding: 32px 19px 42px 23px;
+    }
+    .formation {
+        margin-left: 30px;
+    }
+    .backet__items {
+        border-color: #0199fd;
+    }
+    .main-basket .product-name__wrap {
+        color: #0199fd;
+    }
+    .backet__price {
+        color: #0199fd;
+    }
+    .payment-kind__comment textarea {
+        width: 457px;
+        height: 110px;
+    }
 }
 
 @media (max-width: 970px) {
-  .result-info__btn--wrap {
-    display: none;
-  }
+    .main {
+        padding: 22px 0 193px;
+    }
+    .table-oredrs--name .table-oredrs--quantity {
+        width: 133px;
+    }
+    .table-oredrs--name .table-oredrs--stock {
+        width: 211px;
+    }
+    .table-oredrs--name .table-oredrs--sum {
+        width: 163px;
+    }
+    .table-oredrs--name .table-oredrs--status {
+        width: 195px;
+    }
+    .cards {
+        max-width: 720px;
+        padding-left: 7px;
+        .sun {
+            fill: #0199fd;
+        }
+    }
+    .product-info__entry-field label {
+        margin-right: 14px;
+    }
+    .main-basket .cards {
+        width: 78%;
+    }
+    .payment-additionally {
+        align-items: flex-end;
+    }
+    .checkout-info {
+        padding-bottom: 236px;
+    }
+    .cards {
+        border: solid 1px #0199fd;
+    }
+    .sun {
+        fill: #0199fd;
+    }
+}
 
-  .table-oredrs--name .table-oredrs--quantity {
-    width: 133px;
-  }
-
-  .table-oredrs--name .table-oredrs--stock {
-    width: 211px;
-  }
-
-  .table-oredrs--name .table-oredrs--sum {
-    width: 163px;
-  }
-
-  .table-oredrs--name .table-oredrs--status {
-    width: 195px;
-  }
-
-  .result-card__wrap .cards {
-    max-width: 720px;
-  }
-
-  .result-card__info p:nth-child(3n) {
-    margin-left: 32px;
-  }
-
-  .product-info__entry-field {
-    margin-left: 40px;
-  }
-
-  .product-info__entry-field label {
-    margin-right: 14px;
-  }
+@media (max-width: 968px) {
+    .unloading-wrap {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .unloading-categories {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .unloading-categories__name {
+        width: 9%;
+    }
+    .unloading-categories__list {
+        width: 70%;
+    }
+    .unloadin-previously__info .previously-info {
+        width: 100%;
+    }
+    .previously-info__name {
+        margin-left: 2%;
+        max-width: 100%;
+        width: 60%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .previously-info__item {
+        width: 100%;
+    }
+    .unloadin-previously {
+        padding-bottom: 33px;
+    }
+    .fomation-wraper {
+        width: 100%;
+    }
+    .formation {
+        margin: 0;
+    }
+    .formation-desk .formation-date__large,
+    .formation-tires .formation-date__large select {
+        width: 158px;
+    }
+    .formation-choice .formation-date__large select {
+        width: 95px;
+    }
+    .formation-choice select:last-child {
+        margin-right: 0;
+    }
+    .fomation-wraper {
+        padding: 0;
+        border: none;
+    }
+    .unloadin-filter .unloadin-filter__wraper {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .unloadin-filter__wrap label {
+        font-family: Roboto;
+        font-size: 14px;
+        font-weight: normal;
+        font-stretch: condensed;
+        font-style: normal;
+        line-height: 1.43;
+        letter-spacing: -0.28px;
+        text-align: left;
+        color: #9b9b9b;
+    }
+    .formation-tires {
+        width: 100%;
+    }
+    .unloadin-filter__wraper {
+        width: 100%;
+        justify-content: space-between;
+    }
+    .formation-desk__wrap {
+        width: 50%;
+    }
+    .formation-info:last-child {
+        width: 50%;
+    }
+    .formation-unload__wrap {
+        flex-direction: row;
+    }
+    .unloadin-filter__wraper .formation-heading {
+        padding-top: 26px;
+    }
+    .unloading-assembly {
+        padding-top: 72px;
+        width: 100%;
+    }
+    .unloading-assembly__name {
+        width: 221px;
+        padding: 2px 0;
+    }
+    .unloadin-assembly__wrap {
+        width: 68%;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .unloadin-assembly__btn {
+        margin: 0;
+    }
 }
 
 @media (max-width: 960px) {
-  .result-card__wrap .result-card__info {
-    margin-left: 287px;
-  }
-
-  .main-order__list {
-    padding: 0 16px;
-  }
-
-  .backet-bar {
-    display: none;
-  }
-
-  .result-card__wrap {
-    margin: 0 auto;
-
-    .cards {
-      padding: 5px 5px 3px 30px;
+    .main-order__list {
+        padding: 0 16px;
     }
-
-    .product-info__internet-price {
-      margin-left: 46px;
+    .backet-bar {
+        display: none;
     }
-
-    .product-info__your-price {
-      margin-left: 57px;
+    .result-card__wrap {
+        margin: 0 auto;
+        .cards {
+            padding: 5px 5px 3px 30px;
+        }
+        .result-card__info p:first-child {
+            margin-left: 0;
+        }
     }
-
-    .result-card__info p:first-child {
-      margin-left: 0;
+    .main-tires {
+        .cards {
+            padding: 5px 5px 3px 7px;
+        }
     }
-  }
+    .main-basket__wrap {
+        padding: 0 15px;
+    }
+    .main {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .main-return__link {
+        padding: 0;
+    }
+    .info--name__wrap {
+        flex-direction: column;
+        font-family: Roboto;
+        font-size: 14px;
+    }
+    .info-stock {
+        font-size: 14px;
+        padding-bottom: 9px;
+    }
+    .info-order__wrap {
+        font-size: 14px;
+    }
+    .info-total__wrap {
+        font-size: 16px;
+    }
+    .info-product {
+        justify-content: space-around;
+    }
+    .info-stock {
+        width: 40%;
+    }
+    .info-order__total--wrap {
+        flex-wrap: wrap;
+    }
+    .info-order__total--info {
+        font-family: GothamPro;
+        font-size: 14px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.43;
+        letter-spacing: -0.28px;
+        text-align: left;
+        color: #333333;
+    }
+    .info-order__total--result {
+        font-size: 14px;
+        span {
+            font-size: 20px;
+            margin-left: 24px;
+        }
+    }
+    .main-order {
+        padding-bottom: 170px;
+    }
+    .cabinet-wrap__info {
+        flex-direction: column;
+    }
+    .cabinet-wrap__information {
+        width: 100%;
+    }
+    .cabinet-wrap__information .cabinet-menager,
+    .cabinet-wrap__information .cabinet-password {
+        width: 100%;
+        max-width: 100%;
+        margin-bottom: 14px;
+    }
+    .change-info {
+        width: 100%;
+    }
+    .cabinet-menager__info p {
+        width: 100%;
+    }
+    .change-info {
+        margin-bottom: 14px;
+    }
+    .cabinet-wrap__info {
+        padding-bottom: 0;
+    }
+    .cabinet-address {
+        flex-direction: column;
+    }
+    .cabinet-address__wrap {
+        margin-right: 0;
+    }
+    .cabinet-address__wraper:nth-child(odd) {
+        padding-bottom: 3px;
+    }
+    .cabinet-address__wraper:nth-child(even) {
+        padding-bottom: 3px;
+    }
+    .cabinet-address label {
+        padding-bottom: 1px;
+    }
+    .cabinet-wraper {
+        padding-right: 61px;
+    }
+    .cabinet-wraper:last-child {
+        padding-top: 27px;
+    }
+    .cabinet-delivery__address {
+        padding-top: 9px;
+        .unloading-heading {
+            padding-bottom: 100px;
+        }
+        .cabinet-address__btn--wrap p {
+            padding-bottom: 15px;
+        }
+    }
 }
 
-@media (max-width: 920px) {
-  .main-tires {
-    background: url(../img/car-table.png) no-repeat;
-    background-size: 376px 170px;
-    background-position: 100% 265px;
-  }
+@media (max-width: 960px) {
+    .cabinet-id p {
+        text-align: left;
+        width: 19%;
+    }
+}
 
-  .main-heading__tires {
-    font-size: 30px;
-    margin: 0;
-    padding-top: 56px;
-  }
+@media (max-width: 938px) {
+    .main-basket .product-wrap {
+        max-width: 276px;
+        flex-direction: column;
+    }
+    .main-basket .product {
+        max-width: 259px;
+    }
+    .main-basket .product__place--choice:first-child {
+        margin-right: 26px;
+    }
+    .main-basket .product__place {
+        padding-top: 14px;
+        color: #5b5b5b;
+    }
+    .main-basket .backet-bar__price {
+        color: #0199fd;
+    }
+    .header-tell {
+        width: 35%;
+    }
+}
 
-  .main-tires {
-    padding: 0 15px;
-  }
+@media (max-width: 946px) {
+    .header-tell {
+        width: 37%;
+    }
+}
 
-  .filter-car__btn {
-    margin-top: 14px;
-  }
+@media (max-width: 922px) {
+    .main-tires {
+        background: url(../img/car-table.png) no-repeat;
+        background-size: 376px 170px;
+        background-position: 100% 265px;
+    }
+    .main-heading__tires {
+        font-size: 30px;
+        margin: 0;
+        padding-top: 56px;
+    }
+    .main-tires {
+        padding: 0 15px;
+    }
+    .filter-car__btn {
+        margin-top: 14px;
+    }
+    .filter-car__form select {
+        min-width: 158px;
+    }
+    .filter-car__form--wrap label {
+        width: 79px;
+    }
+    .header-tell {
+        width: 40%;
+    }
+    .header-user {
+        display: none;
+    }
+    .header-tell img {
+        display: none;
+    }
+    .user-info__mobil {
+        display: block;
+        width: 50%;
+        text-align: right;
+        margin: 0;
+    }
+    .header-logo__wrap {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .header-wrap {
+        flex-wrap: wrap;
+    }
+    .header-logo__wraper {
+        width: 100%;
+    }
+    .header-search {
+        margin: 0 auto;
+        padding-bottom: 17px;
+    }
+}
 
-  .filter-car__form select {
-    min-width: 158px;
-  }
+@media (max-width: 894px) {
+    .payment-kind__comment textarea {
+        width: 408px;
+    }
+}
 
-  .filter-car__form--wrap label {
-    width: 79px;
-  }
+@media (max-width: 870px) {
+    .order-list__search--filter:nth-child(odd) {
+        margin-bottom: 14px;
+    }
 }
 
 @media (max-width: 862px) {
-  .header:before {
-    display: none;
-  }
-
-  .header-products__list {
-    justify-content: center;
-  }
-
-  .header-products-item {
-    width: 174px;
-    padding: 30px 0 23px;
-    font-family: GothamProNarrow;
-  }
-
-  .active {
-    padding-bottom: 78px;
-  }
-
-  .header-products-item a {
-    font-size: 16px;
-  }
-
-  .header-products {
-    padding: 0;
-  }
-
-  .header-user {
-    display: none;
-  }
-
-  .header-wrap {
-    flex-wrap: wrap;
-  }
+    .header:before {
+        display: none;
+    }
+    .header-products__list {
+        justify-content: center;
+    }
+    .header-products-item {
+        width: 174px;
+        padding: 30px 0 23px;
+        font-family: GothamProNarrow;
+    }
+    .active {
+        padding-bottom: 78px;
+    }
+    .header-products-item a {
+        font-size: 16px;
+    }
+    .header-products {
+        padding: 0;
+    }
+    .header-user {
+        display: none;
+    }
+    .header-wrap {
+        flex-wrap: wrap;
+    }
+    .user-info__desktop {
+        display: none;
+    }
+    .header-logo__wrap {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .header-logo__wraper {
+        width: 100%;
+    }
+    .footer::before {
+        content: ' ';
+        position: absolute;
+        background: url(../img/2x.png) no-repeat;
+        width: 850px;
+        height: 102px;
+        right: 35%;
+        top: -49px;
+    }
+    .footer::after {
+        content: ' ';
+        position: absolute;
+        background: url(../img/shire-1x.png) no-repeat;
+        height: 165px;
+        top: -106px;
+        left: 1%;
+    }
+    .backet__price {
+        font-size: 30px;
+        font-weight: normal;
+        font-stretch: condensed;
+        font-style: normal;
+        line-height: 0.67;
+        letter-spacing: -0.6px;
+        text-align: left;
+        color: #0199fd;
+    }
 }
 
 @media (max-width: 842px) {
-  .order-list__search--filter:nth-child(odd) {
-    margin-bottom: 14px;
-  }
-
-  .header-logo__wraper {
-    margin: 0 auto;
-  }
+    .header-logo__wraper {
+        margin: 0 auto;
+    }
+    .header-search input {
+        width: 720px;
+        margin: 0 auto;
+    }
+    .header-search {
+        margin: 0 auto;
+    }
+    .result-info {
+        width: 281px;
+        padding-bottom: 16px;
+    }
+    .cabinet-id p {
+        text-align: left;
+        width: 23%;
+    }
 }
 
-
-
-@media (max-width: 842px) {
-  .header-search input {
-    width: 720px;
-    margin: 0 auto;
-  }
-
-  .header-search {
-    margin: 0 auto;
-  }
-
-  /////////////////
-  .main-nav__list {
-    flex-direction: column;
-  }
-
-  .main-nav__item {
-    width: 100%;
-    text-align: center;
-  }
-
-  .menu-icon {
-    z-index: 19;
-    position: relative;
-    display: none;
-    width: 30px;
-    height: 30px;
-    cursor: pointer;
-  }
-
-  .menu-icon {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
-
-  .menu-icon-line {
-    position: relative;
-    width: 30px;
-    height: 5px;
-    background-color: #000;
-  }
-
-  .menu-icon-line::before {
-    position: absolute;
-    left: 0;
-    top: -10px;
-    content: '';
-    width: 30px;
-    height: 5px;
-    background-color: #000;
-    transition: transform 0.2s ease-in, top 0.2s linear 0.2s;
-  }
-
-  .menu-icon-line::after {
-    position: absolute;
-    left: 0;
-    top: 10px;
-    content: '';
-    width: 30px;
-    height: 5px;
-    background-color: #000;
-    transition: transform 0.2s ease-in, top 0.2s linear 0.2s;
-  }
-
-  .menu-icon.menu-icon-active .menu-icon-line {
-    background-color: transparent;
-  }
-
-  .menu-icon.menu-icon-active .menu-icon-line::before {
-    transform: rotate(45deg);
-    top: 0;
-    transition: top 0.2s linear, transform 0.2s ease-in 0.2s;
-  }
-
-  .menu-icon.menu-icon-active .menu-icon-line::after {
-    transform: rotate(-45deg);
-    top: 0;
-    transition: top 0.2s linear, transform 0.2s ease-in 0.2s;
-  }
-
-  .menu-nav__close {
-    display: none;
-  }
-
-}
-
-@media (max-width: 842px) {
-  .result-info {
-    width: 281px;
-    padding-bottom: 16px;
-  }
+@media (max-width: 800px) {
+    .stocks-wrap {
+        flex-direction: column;
+    }
+    .main-return__link {
+        padding-left: 0;
+    }
+    .main-heading {
+        padding: 38px 0 23px;
+    }
+    .stocks-info {
+        width: 100%;
+        border: none;
+        display: flex;
+        justify-content: space-between;
+        padding: 30px 0 0;
+        margin: 0;
+        align-items: start;
+    }
+    .stocks-map iframe {
+        left: 0;
+        top: 0;
+        height: 100%;
+        width: 100%;
+        position: absolute;
+    }
+    .stocks-choice {
+        padding: 0;
+    }
+    .stocks-info-wrap {
+        padding-bottom: 0;
+        border-bottom: none;
+    }
+    .stocks-choice__item select {
+        width: 220px;
+    }
+    .main-stock {
+        padding-bottom: 162px;
+    }
+    .main-heading {
+        margin-bottom: 17px;
+    }
 }
 
 @media (max-width: 788px) {
-  .main-tires {
-    background: url(../img/car-table.png) no-repeat;
-    background-size: 376px 170px;
-    background-position: 98% 280px;
-  }
-
-  .active {
-    padding-bottom: 72px;
-  }
-
-  .result-wrap p {
-    font-size: 14px;
-  }
-
-  .result-info__wrap p {
-    font-family: Myriad Pro;
-    font-size: 18px;
-    color: #0199fd;
-    justify-content: start;
-
-    span {
-      margin: 0 5px;
+    .main-tires {
+        background: url(../img/car-table.png) no-repeat;
+        background-size: 376px 170px;
+        background-position: 98% 280px;
     }
-  }
+    .active {
+        padding-bottom: 72px;
+    }
+    .result-wrap p {
+        font-size: 14px;
+    }
+    .result-info__wrap p {
+        font-family: Myriad Pro;
+        font-size: 18px;
+        color: #0199fd;
+        justify-content: start;
+        span {
+            margin: 0 5px;
+        }
+    }
+    .result-form__filter__wraper {
+        padding-top: 27px;
+        border-top: 1px solid rgba(215, 215, 215, 0.5);
+    }
+    .result-form__filter__wrap select {
+        min-width: 221px;
+    }
+    .result-card__wrap .result-card__info {
+        margin-left: 278px;
+    }
+    .payment-kind__quantity {
+        padding-top: 22px;
+    }
+    .payment-kind__all {
+        padding: 26px 0 30px;
+    }
+    .payment-kind__all span {
+        margin-left: 27px;
+    }
+    .cabinet-id p {
+        width: 24%;
+    }
+}
 
-  .result-form__filter__wraper {
-    padding-top: 27px;
-    border-top: 1px solid rgba(215, 215, 215, 0.5);
-  }
-
-  .result-form__filter__wrap select {
-    min-width: 221px;
-  }
-
-  .result-card__wrap .result-card__info {
-    margin-left: 278px;
-  }
+@media (max-width: 786px) {
+    .result-card__wrap .result-card__info {
+        margin-left: 33%;
+    }
+    .result-card__info {
+        width: 39%;
+    }
 }
 
 @media (max-width: 750px) {
-  .footer-wrap {
-    flex-direction: column;
-  }
+    .footer-wrap {
+        flex-direction: column;
+    }
+    .footer-logo__wrap {
+        max-width: 100%;
+    }
+    .footer-info {
+        margin: 0;
+    }
+    .main-basket .cards {
+        width: 55%;
+    }
+    .main-basket {
+        padding: 22px 0 156px;
+    }
+    .main-basket .product-name__wrap {
+        margin: 20px 0 15px;
+    }
+    .main {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+    .payment {
+        flex-direction: column;
+    }
+    .payment-item {
+        width: 100%;
+        &:first-child {
+            margin-bottom: 9px;
+        }
+    }
+    .main {
+        padding-bottom: 154px;
+    }
+    .unloading {
+        padding-top: 22px;
+    }
+    .unloadin-filter__wrap {
+        flex-wrap: wrap;
+    }
+    .main-header {
+        margin-bottom: 20px;
+    }
+}
 
-  .footer-logo__wrap {
-    max-width: 100%;
-  }
-
-  .footer-info {
-    margin: 0;
-  }
+@media (max-width: 748px) {
+    .main-basket .backet-bar__price {
+        font-size: 20px;
+    }
+    .main-basket .product-name__wrap {
+        justify-content: start;
+    }
+    .product-name__wrap {
+        font-size: 14px;
+    }
+    .main-basket .cards {
+        padding-left: 0;
+        max-width: 56%;
+    }
+    .cards-img img {
+        width: 88px;
+        height: 58px;
+    }
+    .main-basket .cards img {
+        margin: 0;
+    }
+    .main-basket .product-general {
+        padding-bottom: 0;
+    }
+    .main-basket .product__place {
+        flex-wrap: nowrap;
+    }
+    .main-basket .product__place--choice {
+        width: 100%;
+        flex-wrap: nowrap;
+    }
 }
 
 @media (max-width: 745px) {
-  .product {
-    flex-direction: column;
-  }
+    .product {
+        flex-direction: column;
+    }
+    .result-card__info--desktop {
+        display: none;
+    }
+    .result-card__info--mobil {
+        width: 100%;
+        display: flex;
+        margin: 0;
+    }
+    .result-card__wrap .result-card__info {
+        margin: 0;
+    }
+    .result-card__info {
+        padding: 0;
+    }
+    .product-general {
+        width: 100%;
+        justify-content: start;
+    }
+    .result-card__wrap .product-name__wrap {
+        max-width: 300px;
+    }
+    .cards img {
+        width: 37px;
+        height: 49px;
+        margin: 0 45px;
+    }
+    .product-article {
+        width: 170px;
+    }
+    .result-card__wrap .product-name__wrap {
+        margin: 0;
+        justify-content: space-between;
+    }
+    .result-card__wrap .result-card__info {
+        margin-left: 8px;
+    }
+    .result-card__info {
+        max-width: 360px;
+    }
+    .product-general {
+        padding-top: 8px;
+        padding-bottom: 22px;
+    }
+    .result-card__wrap .cards {
+        max-width: 450px;
+    }
+    .result-card__wrap .cards {
+        padding-left: 0;
+    }
+    .result-card__wrap .product-name__wrap {
+        padding: 0;
+    }
+    .result-card__info {
+        max-width: 80%;
+    }
+    .product-name__wrap {
+        flex-direction: row;
+        width: 500px;
+    }
+    .payment-additionally {
+        padding-top: 17px;
+        flex-direction: column;
+        align-items: inherit;
+    }
+    .main-basket .backet-bar__wrap {
+        padding-bottom: 17px;
+    }
+    .payment-kind__wrap {
+        flex-direction: column;
+    }
+    .payment-kind__item--wrap {
+        width: 350px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-bottom: 28px;
+    }
+    .payment-kind .payment-heading {
+        padding-bottom: 22px;
+    }
+    .payment-kind__item--radio {
+        padding: 0;
+    }
+    .payment-kind__pickup {
+        max-width: 350px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .payment-kind .payment-heading:nth-child(2) {
+        max-width: 125px;
+    }
+    .payment-kind__wrap {
+        padding-bottom: 0;
+    }
+    .payment-kind__comment textarea {
+        width: 450px;
+    }
+    .payment-kind__count {
+        border: none;
+        text-align: left;
+    }
+    .payment-kind__all {
+        padding-left: 35px;
+    }
+    .payment-kind__all--wrap {
+        display: flex;
+        width: 100%;
+        border-radius: 5px;
+        border: solid 1px #cdcdcd;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .payment-kind__quantity {
+        border: none;
+        padding-bottom: 10px;
+    }
+    .payment-kind__all {
+        padding: 0 0 0 35px;
+    }
+    .main-basket {
+        padding: 22px 0 87px;
+        .main-return__link {
+            padding: 0;
+        }
+        .btn {
+            margin-right: 0;
+        }
+    }
+    .footer-wrap {
+        padding-top: 51px;
+    }
+    .footer-info__text {
+        max-width: 428px;
+    }
+    .footer-logo__wrap {
+        padding: 0 15px;
+    }
+    .footer-logo__wraper {
+        padding-bottom: 12px;
+    }
+    .info-other {
+        padding-left: 20px;
+        flex-direction: column-reverse;
+    }
+    .info-order__wrap p {
+        font-size: 14px;
+    }
+    .info-order {
+        width: 90%;
+        padding-bottom: 6px;
+        border-bottom: 1px solid #d9d9d9;
+    }
+    .info-stock .info-stock__city {
+        padding-bottom: 2px;
+    }
+    .info {
+        padding-bottom: 0;
+        padding-left: 0;
+    }
+    .info-general {
+        max-width: 106px;
+    }
+    .info-stock {
+        width: 90%;
+    }
+    .info-total {
+        font-size: 16px;
+    }
+    .info-total__wrap {
+        border: none;
+    }
+    .info-order__total--wrap {
+        flex-direction: column;
+    }
+    .info-order__total--info {
+        width: 100%;
+        padding-bottom: 27px;
+    }
+    .info-order__total--result {
+        width: 100%;
+        text-align: right;
+        span {
+            padding: 0;
+        }
+    }
+    .main-order {
+        padding-bottom: 92px;
+    }
+    .footer::before {
+        content: ' ';
+        position: absolute;
+        background: url(../img/3.png) no-repeat;
+        width: 293px;
+        height: 72px;
+        right: 35%;
+        top: -30px;
+        left: 0;
+    }
+    .footer::after {
+        content: ' ';
+        position: absolute;
+        background: url(../img/shire-mobil.png) no-repeat;
+        height: 110px;
+        right: 35%;
+        top: -60px;
+        left: 0;
+    }
+    .product-result__wrap {
+        display: flex;
+        padding: 8px 14px 0px 8px;
+    }
+    .result-card__wrap .product-name__wraper {
+        width: 43%;
+    }
+    .cards img {
+        width: 37px;
+        height: 49px;
+        margin: 0 45px 0 16px;
+    }
+    .product-general {
+        padding-top: 0;
+    }
+    .product-info {
+        width: 100%;
+    }
+}
 
-
-  .result-card__info--desktop {
-    display: none;
-  }
-
-  .result-card__info--mobil {
-    width: 100%;
-    display: flex;
-    margin: 0;
-  }
-
-  .result-card__wrap .result-card__info {
-    margin: 0;
-  }
-
-  .result-card__info {
-    padding: 0;
-  }
-
-  .product-general {
-    width: 100%;
-    justify-content: start;
-  }
-
-  .result-card__wrap .product-name__wrap {
-    max-width: 300px;
-  }
-
-  .cards img {
-    width: 37px;
-    height: 49px;
-    margin: 0 45px;
-  }
-
-  .product-article {
-    width: 170px;
-  }
-
-  .result-card__wrap .product-name__wrap {
-    margin: 0;
-    justify-content: space-between;
-  }
-
-  .result-card__wrap .result-card__info {
-    margin-left: 8px;
-  }
-
-  .result-card__info {
-    max-width: 360px;
-
-  }
-
-  .product-general {
-    padding-top: 8px;
-    padding-bottom: 22px;
-  }
-
-  .result-card__wrap .cards {
-    max-width: 450px;
-  }
-
-  .product-info__entry-field {
-    margin-left: 40px;
-  }
-
-  .result-card__wrap .cards {
-    padding-left: 0;
-  }
-
-  .result-card__wrap .product-name__wrap {
-    padding: 0;
-    flex-wrap: nowrap;
-  }
-
-  .product-name__wrap {
-    flex-direction: row;
-    width: 500px;
-  }
+@media (max-width: 740px) {
+    .header-tell {
+        justify-content: space-between;
+    }
+    .header-number:last-child {
+        margin: 0;
+    }
 }
 
 @media (max-width: 720px) {
-  .result-card__backet {
-    display: flex;
-    padding-bottom: 20px;
-    border: solid 1px rgba(215, 215, 215, 0.5);
-  }
-
-  .backet-bar__issue {
-    width: 178px;
-  }
-
-  .results-cards__btn {
-    width: 178px;
-  }
-
-  .results-cards__list {
-    text-align: center;
-  }
-
-  .btn {
-    margin-right: 31px;
-    padding: 13px 0;
-    font-family: GothamProNarrow;
-    font-size: 12px;
-    font-weight: 500;
-    line-height: 1.17;
-    letter-spacing: -0.24px;
-    color: #ffffff;
-  }
-
-  .backet-bar__total--info {
-    font-family: GothamPro;
-    font-size: 14px;
-    line-height: 1.43;
-    letter-spacing: -0.28px;
-    text-align: left;
-    color: #333333;
-    padding-bottom: 8px;
-  }
-
-  .result-catalog-wrap {
-    padding-bottom: 159px;
-  }
-
-  .backet-bar__total--all p {
-    font-size: 18px;
-  }
-
-  .backet-bar__total--all .result-card__backet {
-    color: #0199fd;
-  }
+    .result-card__backet {
+        display: flex;
+        padding-bottom: 20px;
+        border: solid 1px rgba(215, 215, 215, 0.5);
+    }
+    .backet-bar__issue {
+        width: 178px;
+    }
+    .results-cards__btn {
+        width: 178px;
+    }
+    .results-cards__list {
+        text-align: center;
+    }
+    .btn {
+        margin-right: 31px;
+        padding: 13px 0;
+        font-family: GothamProNarrow;
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 1.17;
+        letter-spacing: -0.24px;
+        color: #ffffff;
+    }
+    .backet-bar__total--info {
+        font-family: GothamPro;
+        font-size: 14px;
+        line-height: 1.43;
+        letter-spacing: -0.28px;
+        text-align: left;
+        color: #333333;
+        padding-bottom: 8px;
+    }
+    .result-catalog-wrap {
+        padding-bottom: 159px;
+    }
+    .backet-bar__total--all p {
+        font-size: 18px;
+    }
+    .backet-bar__total--all .result-card__backet {
+        color: #0199fd;
+    }
+    .unloadin-assembly__wrap {
+        width: 50%;
+        flex-direction: column;
+    }
+    .unloadin-assembly__btn {
+        margin: 27px 0 0 35%;
+    }
+    .popup-entry {
+        width: 595px;
+        padding-top: 69px;
+        padding-bottom: 100px;
+        margin: 0 auto;
+    }
 }
 
 @media (max-width: 700px) {
-  .header-tell img {
-    display: none;
-  }
-
-  .header-number:last-child {
-    margin: 0;
-  }
+    .header-tell img {
+        display: none;
+    }
+    .header-number:last-child {
+        margin: 0;
+    }
 }
 
 @media (max-width: 450px) {
-  .header-search input {
-    width: 450px;
-    margin: 0 auto;
-  }
+    .header-search input {
+        width: 450px;
+        margin: 0 auto;
+    }
 }
 
-@media (max-width: 749px) {
-  .header-search input {
-    width: 450px;
-  }
-
-  .haeder-wraper {
-    max-width: 970px;
-    margin: 0 auto;
-  }
-
-  .header-bar {
-    padding-bottom: 14px;
-  }
-
-  .header-products-item {
-    width: 120px;
-    padding: 18px 0 18px;
-  }
-
-  .header-products-item a {
-    font-size: 14px;
-  }
+@media (max-width: 750px) {
+    .header-search input {
+        width: 450px;
+    }
+    .haeder-wraper {
+        max-width: 970px;
+        margin: 0 auto;
+    }
+    .header-bar {
+        padding-bottom: 14px;
+    }
+    .header-products-item {
+        width: 120px;
+        padding: 18px 0 18px;
+    }
+    .header-products-item a {
+        font-size: 14px;
+    }
+    ////////////////////
+    .main-nav__list {
+        flex-direction: column;
+    }
+    .main-nav__item {
+        width: 100%;
+        text-align: center;
+    }
+    .main-nav__wrap {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        align-items: flex-end;
+        padding: 30px 0 23px;
+        border-bottom: 1px solid rgba(154, 154, 154, 0.5);
+        .main-heading {
+            padding: 0;
+            margin: 0;
+            border: none;
+        }
+    }
+    .menu-icon {
+        display: block;
+    }
+    .menu-icon-line::before {
+        position: absolute;
+        left: 0;
+        top: -7px;
+        content: '';
+        width: 30px;
+        height: 2px;
+        background-color: #0199fd;
+        transition: transform 0.2s ease-in, top 0.2s linear 0.2s;
+    }
+    .menu-icon-line::after {
+        position: absolute;
+        left: 0;
+        top: 7px;
+        content: '';
+        width: 30px;
+        height: 2px;
+        background-color: #0199fd;
+        transition: transform 0.2s ease-in, top 0.2s linear 0.2s;
+    }
+    .menu-icon.menu-icon-active .menu-icon-line {
+        background-color: transparent;
+    }
+    .menu-icon.menu-icon-active .menu-icon-line::before {
+        transform: rotate(45deg);
+        top: 0;
+        transition: top 0.2s linear, transform 0.2s ease-in 0.2s;
+    }
+    .menu-icon.menu-icon-active .menu-icon-line::after {
+        transform: rotate(-45deg);
+        top: 0;
+        transition: top 0.2s linear, transform 0.2s ease-in 0.2s;
+    }
+    .menu-nav__close {
+        display: none;
+    }
+    .main-nav__list {
+        padding: 0;
+    }
+    .main-nav__item {
+        font-size: 18px;
+        padding: 10px 0;
+        border-bottom: solid 1px #cdcdcd;
+    }
+    .cabinet-wrap__info {
+        margin-top: 19px;
+    }
 }
 
-@media (max-width: 719px) {
-  .table-oredrs--name span:first-child {
-    border: none;
-  }
+@media (max-width: 718px) {
+    .table-oredrs--name span:first-child {
+        border: none;
+    }
+    .table-oredrs--name span:first-child {
+        border: none;
+    }
+    .table-orders--info span:first-child {
+        border-right: none;
+        border-radius: 2px;
+        border-collapse: collapse;
+        height: 100%;
+    }
+    td .table-oredrs--date {
+        float: none;
+        width: 100%;
+    }
+    td .table-oredrs--number {
+        float: none;
+        width: 100%;
+    }
+    td.table-oredrs--date-name .table-oredrs--number,
+    td.table-oredrs--date-name .table-oredrs--date {
+        padding: 0;
+    }
+    .table-oredrs--number {
+        width: 100%;
+        padding-bottom: 0;
+    }
+    .table-oredrs--date {
+        width: 100%;
+        padding-top: 0;
+    }
+    .table-orders--info td {
+        padding: 0 5px;
+    }
+    .table-oredrs__desktop {
+        display: none;
+    }
+    .table-oredrs__mobile {
+        display: table-cell;
+        border: 1px solid #1ca1fd;
+        padding-right: 9px;
+        padding-left: 9px;
+    }
+    .table-oredrs--name .table-oredrs--quantity {
+        max-width: 60px;
+    }
+    .table-oredrs--name .table-oredrs--stock {
+        max-width: 140px;
+    }
+    .table-oredrs--name .table-oredrs--sum {
+        min-width: 92px;
+    }
+    .table-oredrs--name .table-oredrs--status {
+        max-width: 91px;
+    }
+    .table-oredrs--name th {
+        max-width: 73px;
+    }
+    .table-oredrs--name {
+        font-size: 14px;
+    }
+    .header-search input {
+        max-width: 420px;
+    }
+    .main-unloading {
+        padding-bottom: 89px;
+    }
+    .cabinet-id p {
+        width: 28%;
+    }
+    .cabinet-btn {
+        padding: 8px 16px;
+    }
+    .table-orders--info td {
+        font-size: 14px;
+    }
+}
 
-  .table-oredrs--name span:first-child {
-    border: none;
-  }
-
-  .table-orders--info span:first-child {
-    border-right: none;
-    border-radius: 2px;
-    border-collapse: collapse;
-    height: 100%;
-  }
-
-  td .table-oredrs--date {
-    float: none;
-    width: 100%;
-  }
-
-  td .table-oredrs--number {
-    float: none;
-    width: 100%;
-  }
-
-  td.table-oredrs--date-name .table-oredrs--number,
-  td.table-oredrs--date-name .table-oredrs--date {
-    padding: 0;
-  }
-
-  .table-oredrs--name th {
-    width: 133px;
-  }
-
-  .table-oredrs--number {
-    width: 100%;
-    padding-bottom: 0;
-  }
-
-  .table-oredrs--date {
-    width: 100%;
-    padding-top: 0;
-  }
-
-  .table-orders--info td {
-    padding: 0 5px;
-  }
-
-  .table-oredrs__desktop {
-    display: none;
-  }
-
-  .table-oredrs__mobile {
-    display: table-cell;
-    border: 1px solid #1ca1fd;
-    padding-right: 9px;
-    padding-left: 9px;
-  }
-
-  .table-oredrs--name .table-oredrs--quantity {
-    width: 60px;
-  }
-
-  .table-oredrs--name .table-oredrs--stock {
-    max-width: 140px;
-  }
-
-  .table-oredrs--name .table-oredrs--sum {
-    max-width: 92px;
-  }
-
-  .table-oredrs--name .table-oredrs--status {
-    max-width: 91px;
-  }
-
-  .table-oredrs--name {
-    font-size: 14px;
-  }
-
-  .header-search input {
-    max-width: 420px;
-  }
-
+@media (max-width: 660px) {
+    .formation-tires {
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .formation-tires {
+        padding-bottom: 23px;
+    }
+    .unloadin-filter__wraper {
+        flex-direction: column;
+    }
+    .formation-desk__wrap {
+        width: 100%;
+    }
+    .formation-info {
+        width: 100%;
+    }
+    .formation-info:last-child {
+        width: 100%;
+    }
+    .unloadin-assembly__btn {
+        margin: 27px 0 0 40%;
+    }
+    .unloading-assembly__name {
+        width: 195px;
+    }
+    .unloadin-assembly__format label {
+        margin: 0 auto;
+    }
+    .formation-btn__wrapper {
+        flex-direction: row;
+    }
+    .formation-btn__wrap:first-child {
+        margin-right: 10%;
+    }
+    .formation-date:nth-child(2n) {
+        .formation-date__large {
+            width: 200px;
+        }
+    }
+    .cabinet-id p {
+        width: 29%;
+    }
 }
 
 @media (max-width: 624px) {
-  .main-tires {
-    background: url(../img/car-table.png) no-repeat;
-    background-size: 211px 114px;
-    background-position: 103% 326px;
-  }
+    .main-tires {
+        background: url(../img/car-table.png) no-repeat;
+        background-size: 211px 114px;
+        background-position: 103% 326px;
+    }
+    .cabinet-id p {
+        width: 31%;
+    }
+}
+
+@media (max-width: 620px) {
+    .change-info__wrap {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .cabinet-wraper {
+        padding-left: 50px;
+    }
+    .cabinet-wrap__delivery {
+        flex-direction: row;
+        align-items: flex-end;
+    }
+    .cabinet-address__btn--wrap {
+        width: 129px;
+        margin-left: 20px;
+        p {
+            text-align: right;
+        }
+    }
+    .cabinet-wraper:last-child {
+        padding-right: 16px;
+        margin-bottom: 0;
+    }
+    .heading-desktop {
+        display: none;
+    }
+    .heading-mobil {
+        display: block;
+    }
+    .cabinet-wrap__delivery {
+        flex-wrap: wrap;
+    }
+    .main .main-cabinet {
+        padding: 22px 0 147px;
+    }
+}
+
+@media (max-width: 582px) {
+    .cabinet-id p {
+        width: 34%;
+    }
+}
+
+@media (max-width: 560px) {
+    .main-order__section {
+        padding-left: 0;
+    }
+    .cabinet-id p {
+        width: 36%;
+    }
 }
 
 @media (max-width: 536px) {
-  .filter-car__form--vertical {
-    margin-left: 14px;
-  }
-
-  .result-form__filter__wrap select {
-    min-width: 195px;
-  }
-
-  .result-form__filter__wrap {
-    margin-right: 56px;
-  }
-
-  .filter-car__form select {
-    min-width: 142px;
-    margin-right: 14px;
-  }
-
-  .filter-car__form--vertical {
-    margin-left: 14px;
-  }
-
-  .filter-car__form--wrap label {
-    width: 72px;
-  }
+    .filter-car__form--vertical {
+        margin-left: 14px;
+    }
+    .result-form__filter__wrap select {
+        min-width: 195px;
+    }
+    .result-form__filter__wrap {
+        margin-right: 56px;
+    }
+    .filter-car__form select {
+        min-width: 142px;
+        margin-right: 14px;
+    }
+    .filter-car__form--vertical {
+        margin-left: 14px;
+    }
+    .filter-car__form--wrap label {
+        width: 72px;
+    }
+    .payment-kind__count--btn {
+        width: 160px;
+    }
+    .main-basket .backet__info {
+        width: 150px;
+        justify-content: flex-end;
+    }
+    .unloadin-assembly__btn {
+        margin: 27px 0 0 30%;
+    }
+    .formation-desk .formation-date__large,
+    .formation-tires .formation-date__large select {
+        width: 142px;
+    }
+    .cabinet-id p {
+        width: 37%;
+    }
+    .backet__price {
+        font-size: 20px;
+        line-height: 1;
+        letter-spacing: -0.4px;
+        text-align: left;
+        color: #0199fd;
+        padding-left: 18px;
+    }
+    .backet-remov__item {
+        width: 9px;
+        height: 9px;
+        img {
+            width: 9px;
+            height: 9px;
+        }
+    }
+    .backet-remov__item--wrap {
+        padding-top: 7px;
+        padding-right: 7px;
+    }
 }
 
 @media (max-width: 516px) {
-  .product-info__entry-field input {
-    width: 68px;
-  }
-
-  .product-info__entry-field label {
-    margin-right: 14px;
-  }
-
-  .result-info {
-    padding-bottom: 0;
-  }
-
-  .result-info__wrap p {
-    font-size: 14px;
-  }
-
-  .result-info {
-    width: 239px;
-  }
-
-  .result-info__wrap {
-    max-width: 255px;
-  }
+    .result-form__filter__wrap select {
+        min-width: 182px;
+    }
+    .result-form__filter__wrap {
+        margin-right: 60px;
+    }
+    .result-form__filter__wrap:last-child {
+        margin-right: 0;
+    }
+    .product-info p {
+        font-size: 12px;
+    }
+    .result-card__info .result-card__info--mobil {
+        font-size: 12px;
+    }
+    .filter-car__form select {
+        min-width: 138px;
+    }
+    .product-info__entry-field input {
+        width: 68px;
+    }
+    .product-info__entry-field label {
+        margin-right: 14px;
+    }
+    .result-info {
+        padding-bottom: 0;
+    }
+    .result-info__wrap p {
+        font-size: 14px;
+    }
+    .result-info {
+        width: 239px;
+    }
+    .result-info__wrap {
+        max-width: 255px;
+    }
+    .result-card__wrap .result-card__info {
+        max-width: 100%;
+        width: 100%;
+        margin-left: 21px;
+        margin-right: -30px;
+    }
+    .product-info {
+        padding: 0 7px;
+    }
+    .result-catalog-wrap {
+        padding-bottom: 0;
+    }
+    .cabinet-id p {
+        width: 39%;
+    }
 }
 
-@media (max-width: 467px) {
-  .order-list__search--filter {
-    width: 130px;
-  }
+@media (max-width: 520px) {
+    .result-card__wrap .result-card__info {
+        max-width: 76%;
+        margin-left: 17px;
+    }
+}
+
+@media (max-width: 500px) {
+    .stocks-info-wrap .stocks-heading {
+        padding-bottom: 15px;
+    }
+    .stocks-choice .stocks-heading {
+        padding-bottom: 9px;
+    }
+    .stocks-choice__item select {
+        width: 192px;
+    }
+    .backet-bar__close .backet-remov__item img {
+        width: 9px;
+        height: 9px;
+    }
+    .stocks-map {
+        height: 222px;
+    }
+    .main-return__link {
+        padding-top: 21px;
+        display: block;
+    }
+    .header-products__list {
+        margin-left: 0;
+    }
+    .payment-item {
+        max-width: 348px;
+        margin: 0 auto;
+    }
+    .payment-item:first-child {
+        margin-right: auto;
+    }
+    .main {
+        padding-bottom: 98px;
+    }
+    .header-info__list {
+        width: 182px;
+        font-size: 12px;
+        margin-right: 14px;
+    }
+    .cabinet-id p {
+        width: 41%;
+    }
+    .order-list__search--filter {
+        width: 130px;
+    }
+}
+
+@media (max-width: 482px) {
+    .cabinet-id p {
+        width: 43%;
+    }
 }
 
 @media (max-width: 450px) {
-  .table-orders--info td {
-    font-style: 14px;
-  }
-
-  .table-oredrs--date-name {
-    width: 73px;
-  }
-
-  .footer::before {
-    content: ' ';
-    position: absolute;
-    background: url(../img/3.png) no-repeat;
-    width: 293px;
-    height: 72px;
-    right: 35%;
-    top: -30px;
-    left: 0;
-  }
-
-  .footer::after {
-    content: ' ';
-    position: absolute;
-    background: url(../img/shire-mobil.png) no-repeat;
-    height: 110px;
-    right: 35%;
-    top: -60px;
-    left: 0;
-  }
+    .table-orders--info td {
+        font-style: 14px;
+    }
+    .table-oredrs--date-name {
+        width: 73px;
+    }
+    .main .main-cabinet {
+        padding-bottom: 147px;
+    }
 }
+
+@media (max-width: 970px) {
+    .popup-entry {
+        width: 778px;
+        padding-bottom: 77px;
+    }
+    .popup-heading {
+        padding-top: 33px;
+    }
+}
+
+@media (max-width: 800px) {
+    .popup-entry {
+        width: 595px;
+        padding-top: 69px;
+        padding-bottom: 100px;
+        margin: 0 auto;
+    }
+    .registration__wrap--btn {
+        margin-top: 32px;
+        p {
+            padding-top: 40px;
+            margin: 0 auto;
+            text-align: center;
+        }
+    }
+    .popup-entry .tabs__nav {
+        display: block;
+    }
+    .popup-entry .tabs__pane {
+        display: none;
+    }
+    .popup-entry .tabs__pane_show {
+        display: block;
+    }
+    .popup-heading {
+        display: none;
+    }
+    .tabs__pane--popup:last-child {
+        border: none;
+    }
+    .popup-entry .tabs__pane {
+        width: 100%;
+    }
+}
+
+@media (max-width: 700px) {
+    .popup-entry {
+        width: 451px;
+        padding-top: 65px;
+        padding-bottom: 38px;
+        .btn {
+            margin-right: 0;
+        }
+    }
+}
+
+////////////
+// cards-product product{
+//     flex-direction: column;
+// }
+// .product-general {
+//     flex-direction: row-reverse;
+// }
+// .product-result__wrap {
+//     display: flex;
+// flex-direction: row-reverse;
+// }

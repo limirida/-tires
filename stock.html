@@ -55,9 +55,9 @@
                         </div>
                     </div>
                     <!-- <div class="header-user__menu">
-                                    <button class="user-menu__cabinet"><img srcset="img/пользователь2.png" alt="My default image"></button>
-                                    <button class="user-menu__backet"><img src="/img/корзина.png" width="20" height="17" alt="" /></button>
-                                </div> -->
+                                <button class="user-menu__cabinet"><img srcset="img/пользователь2.png" alt="My default image"></button>
+                                <button class="user-menu__backet"><img src="/img/корзина.png" width="20" height="17" alt="" /></button>
+                            </div> -->
                 </div>
                 <div class="header-search">
                     <input class="search" type="search" name="search" placeholder="Поиск..." />
@@ -78,11 +78,11 @@
             </nav>
         </div>
     </header>
-    <main class="main main-order">
+    <main class="main main-stock">
         <section class="main-header">
-            <a href="#" class="main-return__link">«« Вернуться назад</a>
+            <a a href="#" class="main-return__link">«« Вернуться назад</a>
             <div class="main-nav__wrap">
-                <h1 class="main-heading">Заказ из файла</h1>
+                <h1 class="main-heading">Контакты складов</h1>
                 <div id="menu-togle" class="menu-icon menu-burger">
                     <div class="menu-icon-line"></div>
                 </div>
@@ -107,24 +107,46 @@
                 </ul>
             </nav>
         </section>
-        <section class="main-order__section order-file">
-            <h4 class="order-file__heading heading__black">Создать заказ из файла</h4>
-            <form class="order-file__form" enctype=" " method="post">
-                <div class="order-file__form--wrap">
-                    <div class="order-upload__wrap">
-                        <input class="order-file__field" type=" " name="entry_field" value="Файл не выбран">
-                        <!--
-                -->
-                        <input class="order-file__download" type="submit" value="ЗАГРУЗИТЬ">
-                    </div>
-                    <input class="order-file__create" type="submit" value="СОЗДАТЬ ЗАКАЗ">
+        <section class="main-stocks stocks">
+            <div class="stocks-wrap">
+                <div class="stocks-map">
+                    <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6259.618438197971!2d39.71288210258201!3d47.236844394240364!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40e3c777c3b4b6ef%3A0x8248b451e48b4d04!2z0KDQvtGB0YLQvtCyLdC90LAt0JTQvtC90YMsINCg0L7RgdGC0L7QstGB0LrQsNGPINC-0LHQuy4!5e0!3m2!1sru!2sru!4v1594824114125!5m2!1sru!2sru"
+                        width="750" height="542" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
                 </div>
-            </form>
-            <div class="order-file__example example">
-                <p><a download href="№" class="example-remainder">Скачать пример файла для заказа из остатков</a></p>
-                <p><a download href="№" class="example-vendor">Скачать пример файла для заказа по артикулам</a></p>
+                <div class="stocks-info">
+                    <div class="stocks-info-wrap">
+                        <div class="stocks-phone">
+                            <h3 class="stocks-heading">Номер телефона:</h3>
+                            <div class="stocks-phone__wrap">
+                                <p class="stocks-number">
+                                    <a class="stocks-number__link" href="tel:+78616430185">+7 (861) 643 - 01 - 85</a></p>
+                                <p class="stocks-number">
+                                    <a class="stocks-number__link" href="tel:+79182133523">+7 (918) 213 - 35 - 23</a></p>
+                            </div>
+                        </div>
+                        <div class="stocks-mail">
+                            <h3 class="stocks-heading">E-mail:</h3>
+                            <a href="mailto:001@mail.ru" class="stock-mail__link">001@mail.ru</a>
+                        </div>
+                    </div>
+                    <div class="stocks-choice">
+                        <div class="stocks-choice__item stocks-city">
+                            <h3 class="stocks-heading">Выбрать город</h3>
+                            <select name="" id="stocks-city">
+                                    <option>Ростов -  на - Дону</option>
+                                  <option>Пункт 2</option>
+                                </select>
+                        </div>
+                        <div class="stocks-choice__item stocks-stock">
+                            <h3 class="stocks-heading">Выбрать город</h3>
+                            <select name="" id="stock-choice">
+                                    <option>Ростов - на - Дону</option>
+                                     <option>Пункт 2</option>
+                                </select>
+                        </div>
+                    </div>
+                </div>
             </div>
-            </form>
         </section>
     </main>
     <footer class="footer">
@@ -185,7 +207,6 @@
             </div>
         </div>
     </footer>
-
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="js/libs.min.js"></script>
     <script src="js/main.js"></script>

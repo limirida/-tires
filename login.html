@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.min.css" />
+</head>
+
+
+<body>
+    <header class="header header-login">
+        <div class="haeder-wraper">
+            <div class="header-bar">
+                <div class="header-tell">
+                    <img src="/img/телефон.png" alt="" />
+                    <a href="tel:+78616430185" class="header-number"> +7 (861) 643 - 01 - 85</a>
+                    <a href="tel:+79182133523" class="header-number">+7 (918) 213 - 35 - 23</a>
+                </div>
+
+                <div class="header-wrap">
+                    <div class="header-logo__wraper">
+                        <div class="header-logo__wrap">
+                            <div class="header-logo">
+                                <a href="" class="header-logo__img">
+                                    <img src="/img/header-logo.png" alt="" />
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main class="main main-login">
+        <div class="popup-entry">
+            <div class="tabs">
+                <div class="tabs__nav">
+                    <a class="tabs__link tabs__link_active" href="#content-1">Вход</a>
+                    <span>/</span>
+                    <a class="tabs__link" href="#content-2"> Регистрация</a>
+                </div>
+                <div class="tabs__content">
+                    <div class="tabs__pane tabs__pane_show tabs__pane--popup" id="content-1">
+                        <form action="" class="entrance popup-form">
+                            <div class="popup-form__center">
+                                <h3 class="popup-heading">Вход</h3>
+                                <div class="popup-form__wrap">
+                                    <label for="popup-entrance__login">Логин</label>
+                                    <input type="text" name="popup-entrance__login" id="popup-entrance__login" placeholder="Введите логин">
+                                </div>
+                                <div class="popup-form__wrap">
+                                    <label for="popup-entrance__password">Пароль</label>
+                                    <input type="password" name="popup-entrance__password" id="popup-entrance__password" placeholder="Введите пароль">
+                                </div>
+                                <div class="popup-form__wraper">
+                                    <input type="checkbox" name="popup-entrance__remember" id="popup-entrance__remember">
+                                    <label for="popup-entrance__remember">Запомнить</label>
+                                </div>
+                                <div class="popup-form__wrap--btn">
+                                    <input class="btn popup-btn" type="submit" value="ВОЙТИ">
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="tabs__pane tabs__pane_show tabs__pane--popup" id="content-2">
+                        <form action="" class="registration popup-form">
+                            <div class="popup-form__center">
+                                <h3 class="popup-heading">Регистрация</h3>
+                                <div class="popup-form__wrap">
+                                    <label for="popup-registration__email">E-mail</label>
+                                    <input type="email" name="popup-registration__email" id="popup-registration__email">
+                                </div>
+                                <div class="popup-form__wrap">
+                                    <label for="popup-registration__phone">Номер телефона</label>
+                                    <input type="tel" name="popup-registration__phone" id="popup-registration__phone" value="+7">
+                                </div>
+                                <div class="popup-form__wrap--btn registration__wrap--btn">
+                                    <input class="btn popup-btn" type="submit" value="ЗАРЕГИСТРИРОВАТЬСЯ">
+                                    <p>Нажимая кнопку «Зарегистрироваться», вы соглашаетесь на обработку персональных данных, и согласны с политикой конфиденциальности.</p>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+    </main>
+    <footer class="footer">
+        <div class="footer-wrap">
+            <div class="footer-logo__wrap">
+                <div class="footer-logo__wraper">
+                    <a href="#" class="footer-logo">
+                        <img src="img/footer-logo.png" alt="" />
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="js/libs.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+
+</html>
